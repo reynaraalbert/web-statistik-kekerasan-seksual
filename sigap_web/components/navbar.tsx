@@ -67,8 +67,6 @@ const Navbar = () => {
               <Link
                 key={link.href}
                 href={link.href}
-                target={link.isExternal ? "_blank" : undefined}
-                rel={link.isExternal ? "noopener noreferrer" : undefined}
                 className={cn(
                   "px-6 py-2.5 rounded-xl text-xs font-black uppercase tracking-widest transition-all",
                   pathname === link.href 
@@ -136,8 +134,6 @@ const Navbar = () => {
                 >
                   <Link
                     href={link.href}
-                    target={link.isExternal ? "_blank" : undefined}
-                    rel={link.isExternal ? "noopener noreferrer" : undefined}
                     onClick={() => setIsMobileMenuOpen(false)}
                     className={cn(
                       "flex items-center justify-between p-6 rounded-3xl transition-all",
