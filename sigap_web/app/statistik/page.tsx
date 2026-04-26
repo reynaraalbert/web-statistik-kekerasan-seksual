@@ -273,18 +273,18 @@ export default function Statistik() {
                 <BarChart
                   data={translatedPerps}
                   layout="vertical"
-                  margin={{ top: 20, right: 40, left: 0, bottom: 20 }}
+                  margin={{ top: 20, right: 40, left: 10, bottom: 20 }}
                 >
                   <CartesianGrid strokeDasharray="5 5" horizontal={false} stroke="var(--border)" />
                   <XAxis type="number" hide />
                   <YAxis 
                     dataKey="label" 
                     type="category" 
-                    width={130} 
-                    fontSize={8} 
+                    width={120} 
+                    fontSize={7} 
                     fontWeight={900}
                     stroke="currentColor"
-                    tick={{ textAnchor: 'start', dx: -125 }}
+                    tick={{ textAnchor: 'start', dx: -115 }}
                     className="uppercase tracking-widest text-black dark:text-white"
                   />
                   <Tooltip 
