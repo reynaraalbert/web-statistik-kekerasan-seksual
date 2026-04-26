@@ -15,7 +15,7 @@ import { cn } from "@/lib/utils";
 const Navbar = () => {
   const pathname = usePathname();
   const { language, setLanguage, t } = useLanguage();
-  const { theme, setTheme } = useTheme();
+  const { resolvedTheme: theme, setTheme } = useTheme();
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [mounted, setMounted] = useState(false);

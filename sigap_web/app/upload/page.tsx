@@ -11,7 +11,7 @@ import { Info, ExternalLink, Loader2, UploadCloud, Database, ArrowRight, ShieldC
 
 export default function Upload() {
   const { language, t } = useLanguage();
-  const { theme } = useTheme();
+  const { resolvedTheme: theme } = useTheme();
   const [loading, setLoading] = useState(true);
   const [mounted, setMounted] = useState(false);
 

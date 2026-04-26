@@ -15,7 +15,7 @@ import Link from "next/link";
 
 export default function Statistik() {
   const { t, language } = useLanguage();
-  const { theme } = useTheme();
+  const { resolvedTheme: theme } = useTheme();
   const [data, setData] = useState<any>(null);
 
   useEffect(() => {

@@ -14,7 +14,7 @@ import {
 
 export default function Home() {
   const { t, language } = useLanguage();
-  const { theme } = useTheme();
+  const { resolvedTheme: theme } = useTheme();
   const [data, setData] = useState<any>(null);
 
   useEffect(() => {

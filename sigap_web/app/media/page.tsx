@@ -10,7 +10,7 @@ import { Play, Newspaper, ExternalLink, MessageSquare, ThumbsUp, Eye, Search } f
 
 export default function Media() {
   const { t } = useLanguage();
-  const { theme } = useTheme();
+  const { resolvedTheme: theme } = useTheme();
   const [data, setData] = useState<any>(null);
   const [activeTab, setActiveTab] = useState("yt");
   const [searchTerm, setSearchTerm] = useState("");

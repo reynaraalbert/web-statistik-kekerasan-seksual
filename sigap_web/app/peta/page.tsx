@@ -23,7 +23,7 @@ const MapView = dynamic(() => import("@/components/map-view"), {
 });
 
 export default function Peta() {
-  const { theme } = useTheme();
+  const { resolvedTheme: theme } = useTheme();
   const { t, language } = useLanguage();
   const [data, setData] = useState<any>(null);
   const [selectedProv, setSelectedProv] = useState<any>(null);
