@@ -47,19 +47,6 @@
   }
 
 
-  /* Force white text for any elements that might be stuck with black classes */
-  .dark .text-black, 
-  .dark .text-black\/80, 
-  .dark .text-black\/70,
-  .dark .text-black\/60,
-  .dark .text-black\/50,
-  .dark .text-black\/40 {
-    color: #FFFFFF !important;
-  }
-
-  .dark p, .dark span, .dark div:not([class*="bg-white"]) {
-    /* Only apply to elements that don't have a specific white background */
-  }
 }
 
 /* Modified Backgrounds with Patterns & Gradients */
