@@ -1,0 +1,167 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-serif: var(--font-playfair), ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+
+  /* Map CSS Variables to Tailwind Utility Classes */
+  --color-primary: var(--primary);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-border: var(--border);
+  --color-card: var(--card);
+}
+
+@layer base {
+  :root {
+    --background: #FFFFFF;
+    --foreground: #000000; /* Absolute Black */
+    --primary: #8B0000;    /* Maroon in Light Mode */
+    --accent: #444444;     /* Darker accent */
+    --card: #FFFFFF;
+    --border: rgba(0, 0, 0, 0.1);
+    --secondary: #F0F0F0;
+  }
+
+  .dark {
+    --background: #8B0000; /* Maroon Background */
+    --foreground: #FFFFFF; /* Absolute White Text */
+    --primary: #FFFFFF;    /* White Titles */
+    --accent: #FFCCCC;
+    --card: #5A0000;       /* Much deeper Maroon for cards */
+    --border: rgba(255, 255, 255, 0.2);
+    --secondary: rgba(0, 0, 0, 0.4);
+  }
+
+  body {
+    background-color: var(--background);
+    color: var(--foreground) !important;
+    font-family: var(--font-sans);
+    transition: background-color 0.4s ease, color 0.4s ease;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-serif);
+    color: var(--primary) !important;
+  }
+
+  .dark h1, .dark h2, .dark h3, .dark h4, .dark h5, .dark h6 {
+    color: #FFFFFF !important;
+  }
+
+  /* Force white text for any elements that might be stuck with black classes */
+  .dark .text-black, 
+  .dark .text-black\/80, 
+  .dark .text-black\/70,
+  .dark .text-black\/60,
+  .dark .text-black\/50,
+  .dark .text-black\/40 {
+    color: #FFFFFF !important;
+  }
+
+  .dark p, .dark span, .dark div:not([class*="bg-white"]) {
+    /* Only apply to elements that don't have a specific white background */
+  }
+}
+
+/* Modified Backgrounds with Patterns & Gradients */
+.grainy-bg {
+  background-color: var(--background);
+  background-image: 
+    radial-gradient(var(--border) 1.5px, transparent 0),
+    linear-gradient(to bottom, var(--background), var(--secondary));
+  background-size: 24px 24px, 100% 100%;
+  background-attachment: fixed;
+}
+
+.dark .grainy-bg {
+  background-image: 
+    radial-gradient(rgba(255, 255, 255, 0.1) 1.5px, transparent 0),
+    linear-gradient(135deg, #8B0000 0%, #3a0000 100%);
+}
+
+.news-article-p {
+  font-size: 1.125rem;
+  line-height: 1.85;
+  margin-bottom: 1.5rem;
+  color: var(--foreground) !important;
+  text-align: justify;
+}
+
+.glass-card {
+  background: var(--card);
+  backdrop-filter: blur(16px);
+  border: 1.5px solid var(--border);
+  box-shadow: 0 20px 60px -15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.dark .glass-card {
+  background: rgba(0, 0, 0, 0.3); /* Darker for better contrast */
+  box-shadow: 0 20px 60px -15px rgba(0, 0, 0, 0.5);
+  border: 1.5px solid rgba(255, 255, 255, 0.15); /* Thicker borders */
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--background);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--primary);
+  border-radius: 20px;
+}
+
+/* Map & Leaflet Tweaks */
+.leaflet-container {
+  background: var(--background) !important;
+}
+
+.premium-popup .leaflet-popup-content-wrapper {
+  background: var(--background) !important;
+  backdrop-filter: blur(10px);
+  color: var(--foreground) !important;
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 4px;
+}
+
+.dark .premium-popup .leaflet-popup-content-wrapper {
+  background: #8B0000 !important;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: #FFFFFF !important;
+}
+
+.dark .premium-popup .leaflet-popup-content-wrapper * {
+  color: #FFFFFF !important;
+}
+
+.premium-popup .leaflet-popup-tip {
+  background: var(--background) !important;
+}
+
+.dark .premium-popup .leaflet-popup-tip {
+  background: #8B0000 !important;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 3px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: var(--primary);
+  border-radius: 10px;
+}
+
+/* Mobile-First Tweaks */
+@media (max-width: 768px) {
+  h1 { font-size: 3rem !important; line-height: 1 !important; }
+  .news-article-p { font-size: 1rem; }
+  .container { padding-left: 1.5rem; padding-right: 1.5rem; }
+  .py-60 { padding-top: 5rem; padding-bottom: 5rem; }
+  .py-40 { padding-top: 4rem; padding-bottom: 4rem; }
+  .mb-80 { margin-bottom: 5rem; }
+}

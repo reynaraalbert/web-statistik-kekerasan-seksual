@@ -1,0 +1,2763 @@
+{
+  "meta": {
+    "generated_at": "2026-04-26T02:09:47.215113",
+    "source_file": "RISET_kekerasan_seksual_PT_20260424_2221.xlsx"
+  },
+  "overview": {
+    "total_laporan": 1981,
+    "total_teridentifikasi": 650,
+    "total_kampus": 48,
+    "total_provinsi": 21,
+    "tahun_min": 2012,
+    "tahun_max": 2026,
+    "total_berita": 319,
+    "total_youtube": 276,
+    "total_views_yt": 6661034
+  },
+  "growth": {
+    "latest_year": 2026,
+    "latest_count": 1175,
+    "prev_count": 122,
+    "growth_pct": 863.1,
+    "peak_2021": 237
+  },
+  "trend_tahunan": [
+    {
+      "tahun": 2019,
+      "jumlah": 45
+    },
+    {
+      "tahun": 2020,
+      "jumlah": 62
+    },
+    {
+      "tahun": 2021,
+      "jumlah": 237
+    },
+    {
+      "tahun": 2022,
+      "jumlah": 215
+    },
+    {
+      "tahun": 2023,
+      "jumlah": 384
+    },
+    {
+      "tahun": 2024,
+      "jumlah": 512
+    },
+    {
+      "tahun": 2025,
+      "jumlah": 780
+    },
+    {
+      "tahun": 2026,
+      "jumlah": 1175
+    }
+  ],
+  "jenis_kekerasan": [
+    {
+      "label": "Kekerasan Seksual (Umum)",
+      "value": 432
+    },
+    {
+      "label": "Pelecehan Seksual",
+      "value": 283
+    },
+    {
+      "label": "Pelecehan Verbal",
+      "value": 9
+    },
+    {
+      "label": "Pemerkosaan",
+      "value": 5
+    },
+    {
+      "label": "KBGO",
+      "value": 4
+    },
+    {
+      "label": "Pemaksaan Seksual",
+      "value": 1
+    }
+  ],
+  "pelaku": [
+    {
+      "label": "Mahasiswa",
+      "value": 223
+    },
+    {
+      "label": "Dosen",
+      "value": 127
+    },
+    {
+      "label": "Pengurus BEM/Organisasi",
+      "value": 24
+    },
+    {
+      "label": "Rektor/Pimpinan",
+      "value": 24
+    },
+    {
+      "label": "Alumni",
+      "value": 6
+    },
+    {
+      "label": "Senior/Kakak Tingkat",
+      "value": 3
+    },
+    {
+      "label": "Tenaga Kependidikan",
+      "value": 2
+    },
+    {
+      "label": "Panitia Kegiatan",
+      "value": 2
+    },
+    {
+      "label": "Dosen Pembimbing",
+      "value": 1
+    }
+  ],
+  "status_pt": [
+    {
+      "label": "Negeri",
+      "value": 604
+    },
+    {
+      "label": "Swasta",
+      "value": 46
+    }
+  ],
+  "top_universitas": [
+    {
+      "label": "Universitas Indonesia",
+      "value": 193
+    },
+    {
+      "label": "Universitas Brawijaya",
+      "value": 98
+    },
+    {
+      "label": "Universitas Negeri Yogyakarta",
+      "value": 74
+    },
+    {
+      "label": "Universitas Sumatera Utara",
+      "value": 36
+    },
+    {
+      "label": "Universitas Gadjah Mada",
+      "value": 26
+    },
+    {
+      "label": "Universitas Negeri Jakarta",
+      "value": 22
+    },
+    {
+      "label": "Universitas Padjadjaran",
+      "value": 18
+    },
+    {
+      "label": "Universitas Airlangga",
+      "value": 16
+    },
+    {
+      "label": "Universitas Pelita Harapan",
+      "value": 14
+    },
+    {
+      "label": "Universitas Sebelas Maret",
+      "value": 14
+    },
+    {
+      "label": "Universitas Jember",
+      "value": 12
+    },
+    {
+      "label": "Universitas Riau",
+      "value": 9
+    },
+    {
+      "label": "Universitas Sriwijaya",
+      "value": 8
+    },
+    {
+      "label": "Institut Teknologi Bandung",
+      "value": 8
+    },
+    {
+      "label": "Institut Pertanian Bogor",
+      "value": 8
+    },
+    {
+      "label": "Universitas Muhammadiyah Malang",
+      "value": 6
+    },
+    {
+      "label": "Universitas Negeri Surabaya",
+      "value": 6
+    },
+    {
+      "label": "Universitas Hasanuddin",
+      "value": 6
+    },
+    {
+      "label": "Universitas Gunadarma",
+      "value": 6
+    },
+    {
+      "label": "Universitas Muhammadiyah Yogyakarta",
+      "value": 5
+    }
+  ],
+  "provinsi": [
+    {
+      "label": "Jawa Barat",
+      "value": 235
+    },
+    {
+      "label": "Jawa Timur",
+      "value": 143
+    },
+    {
+      "label": "DI Yogyakarta",
+      "value": 108
+    },
+    {
+      "label": "Sumatera Utara",
+      "value": 37
+    },
+    {
+      "label": "DKI Jakarta",
+      "value": 29
+    },
+    {
+      "label": "Jawa Tengah",
+      "value": 23
+    },
+    {
+      "label": "Banten",
+      "value": 17
+    },
+    {
+      "label": "Riau",
+      "value": 9
+    },
+    {
+      "label": "Sumatera Selatan",
+      "value": 8
+    },
+    {
+      "label": "Sulawesi Selatan",
+      "value": 6
+    },
+    {
+      "label": "Kalimantan Selatan",
+      "value": 5
+    },
+    {
+      "label": "Sumatera Barat",
+      "value": 5
+    },
+    {
+      "label": "Sulawesi Tenggara",
+      "value": 5
+    },
+    {
+      "label": "Kalimantan Tengah",
+      "value": 4
+    },
+    {
+      "label": "Bali",
+      "value": 4
+    },
+    {
+      "label": "Bengkulu",
+      "value": 3
+    },
+    {
+      "label": "Nusa Tenggara Barat",
+      "value": 2
+    },
+    {
+      "label": "Kepulauan Riau",
+      "value": 2
+    },
+    {
+      "label": "Kalimantan Barat",
+      "value": 1
+    },
+    {
+      "label": "Maluku",
+      "value": 1
+    },
+    {
+      "label": "Kalimantan Timur",
+      "value": 1
+    }
+  ],
+  "provinsi_geo": [
+    {
+      "name": "Jawa Barat",
+      "count": 235,
+      "lat": -6.889,
+      "lng": 107.64,
+      "kampus_count": 6,
+      "top_universitas": [
+        {
+          "name": "Universitas Indonesia",
+          "count": 193
+        },
+        {
+          "name": "Universitas Padjadjaran",
+          "count": 18
+        },
+        {
+          "name": "Institut Pertanian Bogor",
+          "count": 8
+        },
+        {
+          "name": "Institut Teknologi Bandung",
+          "count": 8
+        },
+        {
+          "name": "Universitas Gunadarma",
+          "count": 6
+        }
+      ],
+      "jenis_kekerasan": [
+        {
+          "label": "Pelecehan Seksual",
+          "value": 110
+        },
+        {
+          "label": "Kekerasan Seksual (Umum)",
+          "value": 35
+        },
+        {
+          "label": "Pelecehan Verbal",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "Jawa Timur",
+      "count": 143,
+      "lat": -7.536,
+      "lng": 112.239,
+      "kampus_count": 7,
+      "top_universitas": [
+        {
+          "name": "Universitas Brawijaya",
+          "count": 98
+        },
+        {
+          "name": "Universitas Airlangga",
+          "count": 16
+        },
+        {
+          "name": "Universitas Jember",
+          "count": 12
+        },
+        {
+          "name": "Universitas Muhammadiyah Malang",
+          "count": 6
+        },
+        {
+          "name": "Universitas Negeri Surabaya",
+          "count": 6
+        }
+      ],
+      "jenis_kekerasan": [
+        {
+          "label": "Kekerasan Seksual (Umum)",
+          "value": 45
+        },
+        {
+          "label": "Pelecehan Seksual",
+          "value": 26
+        },
+        {
+          "label": "KBGO",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "name": "DI Yogyakarta",
+      "count": 108,
+      "lat": -7.797,
+      "lng": 110.371,
+      "kampus_count": 5,
+      "top_universitas": [
+        {
+          "name": "Universitas Negeri Yogyakarta",
+          "count": 74
+        },
+        {
+          "name": "Universitas Gadjah Mada",
+          "count": 26
+        },
+        {
+          "name": "Universitas Muhammadiyah Yogyakarta",
+          "count": 5
+        },
+        {
+          "name": "Universitas Islam Indonesia",
+          "count": 2
+        },
+        {
+          "name": "Universitas Atma Jaya Yogyakarta",
+          "count": 1
+        }
+      ],
+      "jenis_kekerasan": [
+        {
+          "label": "Kekerasan Seksual (Umum)",
+          "value": 23
+        },
+        {
+          "label": "Pelecehan Seksual",
+          "value": 10
+        }
+      ]
+    },
+    {
+      "name": "Sumatera Utara",
+      "count": 37,
+      "lat": 2.115,
+      "lng": 99.03,
+      "kampus_count": 2,
+      "top_universitas": [
+        {
+          "name": "Universitas Sumatera Utara",
+          "count": 36
+        },
+        {
+          "name": "Universitas HKBP Nommensen",
+          "count": 1
+        }
+      ],
+      "jenis_kekerasan": [
+        {
+          "label": "Kekerasan Seksual (Umum)",
+          "value": 6
+        },
+        {
+          "label": "Pelecehan Seksual",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "name": "DKI Jakarta",
+      "count": 29,
+      "lat": -6.2,
+      "lng": 106.817,
+      "kampus_count": 5,
+      "top_universitas": [
+        {
+          "name": "Universitas Negeri Jakarta",
+          "count": 22
+        },
+        {
+          "name": "Universitas Atma Jaya Jakarta",
+          "count": 4
+        },
+        {
+          "name": "Universitas Bina Nusantara",
+          "count": 1
+        },
+        {
+          "name": "Universitas Mercu Buana",
+          "count": 1
+        },
+        {
+          "name": "Universitas Pancasila",
+          "count": 1
+        }
+      ],
+      "jenis_kekerasan": [
+        {
+          "label": "Kekerasan Seksual (Umum)",
+          "value": 12
+        },
+        {
+          "label": "Pelecehan Seksual",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "name": "Jawa Tengah",
+      "count": 23,
+      "lat": -7.151,
+      "lng": 110.14,
+      "kampus_count": 3,
+      "top_universitas": [
+        {
+          "name": "Universitas Sebelas Maret",
+          "count": 14
+        },
+        {
+          "name": "Universitas Jenderal Soedirman",
+          "count": 5
+        },
+        {
+          "name": "Universitas Muhammadiyah Surakarta",
+          "count": 4
+        }
+      ],
+      "jenis_kekerasan": [
+        {
+          "label": "Kekerasan Seksual (Umum)",
+          "value": 14
+        },
+        {
+          "label": "Pemaksaan Seksual",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "Banten",
+      "count": 17,
+      "lat": -6.406,
+      "lng": 106.064,
+      "kampus_count": 2,
+      "top_universitas": [
+        {
+          "name": "Universitas Pelita Harapan",
+          "count": 14
+        },
+        {
+          "name": "UIN Syarif Hidayatullah",
+          "count": 3
+        }
+      ],
+      "jenis_kekerasan": [
+        {
+          "label": "Kekerasan Seksual (Umum)",
+          "value": 4
+        },
+        {
+          "label": "Pelecehan Seksual",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "name": "Riau",
+      "count": 9,
+      "lat": 0.293,
+      "lng": 101.707,
+      "kampus_count": 1,
+      "top_universitas": [
+        {
+          "name": "Universitas Riau",
+          "count": 9
+        }
+      ],
+      "jenis_kekerasan": [
+        {
+          "label": "Pelecehan Seksual",
+          "value": 5
+        },
+        {
+          "label": "Kekerasan Seksual (Umum)",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "Sumatera Selatan",
+      "count": 8,
+      "lat": -3.32,
+      "lng": 103.914,
+      "kampus_count": 1,
+      "top_universitas": [
+        {
+          "name": "Universitas Sriwijaya",
+          "count": 8
+        }
+      ],
+      "jenis_kekerasan": [
+        {
+          "label": "Pelecehan Seksual",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "name": "Sulawesi Selatan",
+      "count": 6,
+      "lat": -3.668,
+      "lng": 119.974,
+      "kampus_count": 1,
+      "top_universitas": [
+        {
+          "name": "Universitas Hasanuddin",
+          "count": 6
+        }
+      ],
+      "jenis_kekerasan": [
+        {
+          "label": "Kekerasan Seksual (Umum)",
+          "value": 3
+        },
+        {
+          "label": "Pelecehan Seksual",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "name": "Kalimantan Selatan",
+      "count": 5,
+      "lat": -3.093,
+      "lng": 115.284,
+      "kampus_count": 1,
+      "top_universitas": [
+        {
+          "name": "Universitas Lambung Mangkurat",
+          "count": 5
+        }
+      ],
+      "jenis_kekerasan": [
+        {
+          "label": "Kekerasan Seksual (Umum)",
+          "value": 4
+        },
+        {
+          "label": "Pelecehan Seksual",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "Sumatera Barat",
+      "count": 5,
+      "lat": -0.74,
+      "lng": 100.8,
+      "kampus_count": 3,
+      "top_universitas": [
+        {
+          "name": "Universitas Andalas",
+          "count": 3
+        },
+        {
+          "name": "UIN Imam Bonjol",
+          "count": 1
+        },
+        {
+          "name": "Universitas Negeri Padang",
+          "count": 1
+        }
+      ],
+      "jenis_kekerasan": [
+        {
+          "label": "Pelecehan Seksual",
+          "value": 3
+        },
+        {
+          "label": "Kekerasan Seksual (Umum)",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "name": "Sulawesi Tenggara",
+      "count": 5,
+      "lat": -4.145,
+      "lng": 122.175,
+      "kampus_count": 1,
+      "top_universitas": [
+        {
+          "name": "Universitas Halu Oleo",
+          "count": 5
+        }
+      ],
+      "jenis_kekerasan": [
+        {
+          "label": "Kekerasan Seksual (Umum)",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "name": "Kalimantan Tengah",
+      "count": 4,
+      "lat": -1.681,
+      "lng": 113.383,
+      "kampus_count": 1,
+      "top_universitas": [
+        {
+          "name": "Universitas Palangka Raya",
+          "count": 4
+        }
+      ],
+      "jenis_kekerasan": [
+        {
+          "label": "Kekerasan Seksual (Umum)",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "name": "Bali",
+      "count": 4,
+      "lat": -8.41,
+      "lng": 115.189,
+      "kampus_count": 1,
+      "top_universitas": [
+        {
+          "name": "Universitas Udayana",
+          "count": 4
+        }
+      ],
+      "jenis_kekerasan": [
+        {
+          "label": "Kekerasan Seksual (Umum)",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "name": "Bengkulu",
+      "count": 3,
+      "lat": -3.793,
+      "lng": 102.265,
+      "kampus_count": 1,
+      "top_universitas": [
+        {
+          "name": "Universitas Bengkulu",
+          "count": 3
+        }
+      ],
+      "jenis_kekerasan": [
+        {
+          "label": "Kekerasan Seksual (Umum)",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "name": "Nusa Tenggara Barat",
+      "count": 2,
+      "lat": -8.652,
+      "lng": 117.362,
+      "kampus_count": 1,
+      "top_universitas": [
+        {
+          "name": "Universitas Mataram",
+          "count": 2
+        }
+      ],
+      "jenis_kekerasan": [
+        {
+          "label": "Kekerasan Seksual (Umum)",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "name": "Kepulauan Riau",
+      "count": 2,
+      "lat": 3.943,
+      "lng": 108.143,
+      "kampus_count": 1,
+      "top_universitas": [
+        {
+          "name": "Universitas Maritim Raja Ali Haji",
+          "count": 2
+        }
+      ],
+      "jenis_kekerasan": [
+        {
+          "label": "Kekerasan Seksual (Umum)",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "Kalimantan Barat",
+      "count": 1,
+      "lat": -0.026,
+      "lng": 109.343,
+      "kampus_count": 1,
+      "top_universitas": [
+        {
+          "name": "Universitas Tanjungpura",
+          "count": 1
+        }
+      ],
+      "jenis_kekerasan": [
+        {
+          "label": "Kekerasan Seksual (Umum)",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "Maluku",
+      "count": 1,
+      "lat": -3.238,
+      "lng": 130.145,
+      "kampus_count": 1,
+      "top_universitas": [
+        {
+          "name": "Universitas Pattimura",
+          "count": 1
+        }
+      ],
+      "jenis_kekerasan": [
+        {
+          "label": "Kekerasan Seksual (Umum)",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "Kalimantan Timur",
+      "count": 1,
+      "lat": 1.638,
+      "lng": 116.419,
+      "kampus_count": 1,
+      "top_universitas": [
+        {
+          "name": "Universitas Mulawarman",
+          "count": 1
+        }
+      ],
+      "jenis_kekerasan": [
+        {
+          "label": "Kekerasan Seksual (Umum)",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "universitas_geo": [
+    {
+      "name": "Institut Teknologi Bandung",
+      "count": 8,
+      "lat": -6.8913,
+      "lng": 107.6102,
+      "provinsi": "Jawa Barat",
+      "status": "Negeri",
+      "jenis_kekerasan": [
+        {
+          "label": "Kekerasan Seksual (Umum)",
+          "value": 7
+        }
+      ],
+      "pelaku": [
+        {
+          "label": "Mahasiswa",
+          "value": 1
+        }
+      ],
+      "trend": [
+        {
+          "tahun": 2022,
+          "n": 3
+        },
+        {
+          "tahun": 2023,
+          "n": 2
+        },
+        {
+          "tahun": 2026,
+          "n": 3
+        }
+      ]
+    },
+    {
+      "name": "Universitas Airlangga",
+      "count": 16,
+      "lat": -7.2687,
+      "lng": 112.7582,
+      "provinsi": "Jawa Timur",
+      "status": "Negeri",
+      "jenis_kekerasan": [
+        {
+          "label": "Kekerasan Seksual (Umum)",
+          "value": 10
+        },
+        {
+          "label": "KBGO",
+          "value": 2
+        },
+        {
+          "label": "Pelecehan Seksual",
+          "value": 2
+        }
+      ],
+      "pelaku": [
+        {
+          "label": "Pengurus BEM/Organisasi",
+          "value": 3
+        },
+        {
+          "label": "Mahasiswa",
+          "value": 3
+        }
+      ],
+      "trend": [
+        {
+          "tahun": 2020,
+          "n": 2
+        },
+        {
+          "tahun": 2022,
+          "n": 6
+        },
+        {
+          "tahun": 2023,
+          "n": 4
+        },
+        {
+          "tahun": 2024,
+          "n": 1
+        },
+        {
+          "tahun": 2025,
+          "n": 2
+        },
+        {
+          "tahun": 2026,
+          "n": 1
+        }
+      ]
+    },
+    {
+      "name": "Universitas Andalas",
+      "count": 3,
+      "lat": -0.9003,
+      "lng": 100.4569,
+      "provinsi": "Sumatera Barat",
+      "status": "Negeri",
+      "jenis_kekerasan": [
+        {
+          "label": "Pelecehan Seksual",
+          "value": 3
+        }
+      ],
+      "pelaku": [
+        {
+          "label": "Rektor/Pimpinan",
+          "value": 2
+        },
+        {
+          "label": "Dosen",
+          "value": 1
+        }
+      ],
+      "trend": [
+        {
+          "tahun": 2022,
+          "n": 1
+        },
+        {
+          "tahun": 2023,
+          "n": 2
+        }
+      ]
+    },
+    {
+      "name": "Universitas Brawijaya",
+      "count": 98,
+      "lat": -7.9521,
+      "lng": 112.6122,
+      "provinsi": "Jawa Timur",
+      "status": "Negeri",
+      "jenis_kekerasan": [
+        {
+          "label": "Kekerasan Seksual (Umum)",
+          "value": 27
+        },
+        {
+          "label": "Pelecehan Seksual",
+          "value": 18
+        }
+      ],
+      "pelaku": [
+        {
+          "label": "Mahasiswa",
+          "value": 7
+        },
+        {
+          "label": "Dosen",
+          "value": 6
+        },
+        {
+          "label": "Panitia Kegiatan",
+          "value": 1
+        }
+      ],
+      "trend": [
+        {
+          "tahun": 2019,
+          "n": 2
+        },
+        {
+          "tahun": 2020,
+          "n": 2
+        },
+        {
+          "tahun": 2021,
+          "n": 17
+        },
+        {
+          "tahun": 2022,
+          "n": 9
+        },
+        {
+          "tahun": 2023,
+          "n": 4
+        },
+        {
+          "tahun": 2024,
+          "n": 9
+        },
+        {
+          "tahun": 2025,
+          "n": 9
+        },
+        {
+          "tahun": 2026,
+          "n": 46
+        }
+      ]
+    },
+    {
+      "name": "Universitas Gadjah Mada",
+      "count": 26,
+      "lat": -7.7714,
+      "lng": 110.3775,
+      "provinsi": "DI Yogyakarta",
+      "status": "Negeri",
+      "jenis_kekerasan": [
+        {
+          "label": "Kekerasan Seksual (Umum)",
+          "value": 9
+        },
+        {
+          "label": "Pelecehan Seksual",
+          "value": 4
+        }
+      ],
+      "pelaku": [
+        {
+          "label": "Dosen",
+          "value": 3
+        },
+        {
+          "label": "Mahasiswa",
+          "value": 2
+        }
+      ],
+      "trend": [
+        {
+          "tahun": 2021,
+          "n": 2
+        },
+        {
+          "tahun": 2022,
+          "n": 3
+        },
+        {
+          "tahun": 2023,
+          "n": 3
+        },
+        {
+          "tahun": 2024,
+          "n": 8
+        },
+        {
+          "tahun": 2025,
+          "n": 7
+        },
+        {
+          "tahun": 2026,
+          "n": 3
+        }
+      ]
+    },
+    {
+      "name": "Universitas Hasanuddin",
+      "count": 6,
+      "lat": -5.1354,
+      "lng": 119.4887,
+      "provinsi": "Sulawesi Selatan",
+      "status": "Negeri",
+      "jenis_kekerasan": [
+        {
+          "label": "Kekerasan Seksual (Umum)",
+          "value": 3
+        },
+        {
+          "label": "Pelecehan Seksual",
+          "value": 3
+        }
+      ],
+      "pelaku": [
+        {
+          "label": "Dosen",
+          "value": 3
+        }
+      ],
+      "trend": [
+        {
+          "tahun": 2024,
+          "n": 4
+        },
+        {
+          "tahun": 2025,
+          "n": 2
+        }
+      ]
+    },
+    {
+      "name": "Universitas Indonesia",
+      "count": 193,
+      "lat": -6.3605,
+      "lng": 106.827,
+      "provinsi": "Jawa Barat",
+      "status": "Negeri",
+      "jenis_kekerasan": [
+        {
+          "label": "Pelecehan Seksual",
+          "value": 101
+        },
+        {
+          "label": "Kekerasan Seksual (Umum)",
+          "value": 18
+        },
+        {
+          "label": "Pelecehan Verbal",
+          "value": 1
+        }
+      ],
+      "pelaku": [
+        {
+          "label": "Mahasiswa",
+          "value": 102
+        },
+        {
+          "label": "Rektor/Pimpinan",
+          "value": 5
+        },
+        {
+          "label": "Pengurus BEM/Organisasi",
+          "value": 4
+        },
+        {
+          "label": "Alumni",
+          "value": 3
+        },
+        {
+          "label": "Dosen",
+          "value": 3
+        }
+      ],
+      "trend": [
+        {
+          "tahun": 2022,
+          "n": 1
+        },
+        {
+          "tahun": 2023,
+          "n": 2
+        },
+        {
+          "tahun": 2024,
+          "n": 3
+        },
+        {
+          "tahun": 2025,
+          "n": 1
+        },
+        {
+          "tahun": 2026,
+          "n": 186
+        }
+      ]
+    },
+    {
+      "name": "Universitas Negeri Jakarta",
+      "count": 22,
+      "lat": -6.2,
+      "lng": 106.87,
+      "provinsi": "DKI Jakarta",
+      "status": "Negeri",
+      "jenis_kekerasan": [
+        {
+          "label": "Kekerasan Seksual (Umum)",
+          "value": 9
+        },
+        {
+          "label": "Pelecehan Seksual",
+          "value": 4
+        }
+      ],
+      "pelaku": [
+        {
+          "label": "Mahasiswa",
+          "value": 5
+        },
+        {
+          "label": "Rektor/Pimpinan",
+          "value": 2
+        },
+        {
+          "label": "Dosen",
+          "value": 1
+        }
+      ],
+      "trend": [
+        {
+          "tahun": 2018,
+          "n": 2
+        },
+        {
+          "tahun": 2021,
+          "n": 4
+        },
+        {
+          "tahun": 2022,
+          "n": 6
+        },
+        {
+          "tahun": 2026,
+          "n": 10
+        }
+      ]
+    },
+    {
+      "name": "Universitas Negeri Yogyakarta",
+      "count": 74,
+      "lat": -7.7778,
+      "lng": 110.3928,
+      "provinsi": "DI Yogyakarta",
+      "status": "Negeri",
+      "jenis_kekerasan": [
+        {
+          "label": "Kekerasan Seksual (Umum)",
+          "value": 11
+        },
+        {
+          "label": "Pelecehan Seksual",
+          "value": 4
+        }
+      ],
+      "pelaku": [
+        {
+          "label": "Dosen",
+          "value": 8
+        },
+        {
+          "label": "Mahasiswa",
+          "value": 4
+        },
+        {
+          "label": "Pengurus BEM/Organisasi",
+          "value": 2
+        },
+        {
+          "label": "Rektor/Pimpinan",
+          "value": 1
+        }
+      ],
+      "trend": [
+        {
+          "tahun": 2019,
+          "n": 2
+        },
+        {
+          "tahun": 2021,
+          "n": 5
+        },
+        {
+          "tahun": 2022,
+          "n": 7
+        },
+        {
+          "tahun": 2023,
+          "n": 3
+        },
+        {
+          "tahun": 2024,
+          "n": 4
+        },
+        {
+          "tahun": 2025,
+          "n": 3
+        },
+        {
+          "tahun": 2026,
+          "n": 50
+        }
+      ]
+    },
+    {
+      "name": "Universitas Padjadjaran",
+      "count": 18,
+      "lat": -6.9218,
+      "lng": 107.7693,
+      "provinsi": "Jawa Barat",
+      "status": "Negeri",
+      "jenis_kekerasan": [
+        {
+          "label": "Kekerasan Seksual (Umum)",
+          "value": 7
+        },
+        {
+          "label": "Pelecehan Seksual",
+          "value": 3
+        }
+      ],
+      "pelaku": [
+        {
+          "label": "Dosen",
+          "value": 5
+        },
+        {
+          "label": "Pengurus BEM/Organisasi",
+          "value": 2
+        }
+      ],
+      "trend": [
+        {
+          "tahun": 2022,
+          "n": 3
+        },
+        {
+          "tahun": 2023,
+          "n": 2
+        },
+        {
+          "tahun": 2024,
+          "n": 4
+        },
+        {
+          "tahun": 2026,
+          "n": 9
+        }
+      ]
+    },
+    {
+      "name": "Universitas Pelita Harapan",
+      "count": 14,
+      "lat": -6.224,
+      "lng": 106.6398,
+      "provinsi": "Banten",
+      "status": "Swasta",
+      "jenis_kekerasan": [
+        {
+          "label": "Kekerasan Seksual (Umum)",
+          "value": 4
+        },
+        {
+          "label": "Pelecehan Seksual",
+          "value": 2
+        }
+      ],
+      "pelaku": [],
+      "trend": [
+        {
+          "tahun": 2022,
+          "n": 2
+        },
+        {
+          "tahun": 2023,
+          "n": 4
+        },
+        {
+          "tahun": 2025,
+          "n": 4
+        },
+        {
+          "tahun": 2026,
+          "n": 4
+        }
+      ]
+    },
+    {
+      "name": "Universitas Riau",
+      "count": 9,
+      "lat": 0.4694,
+      "lng": 101.3731,
+      "provinsi": "Riau",
+      "status": "Negeri",
+      "jenis_kekerasan": [
+        {
+          "label": "Pelecehan Seksual",
+          "value": 5
+        },
+        {
+          "label": "Kekerasan Seksual (Umum)",
+          "value": 1
+        }
+      ],
+      "pelaku": [
+        {
+          "label": "Mahasiswa",
+          "value": 3
+        },
+        {
+          "label": "Dosen",
+          "value": 2
+        },
+        {
+          "label": "Dosen Pembimbing",
+          "value": 1
+        },
+        {
+          "label": "Rektor/Pimpinan",
+          "value": 1
+        }
+      ],
+      "trend": [
+        {
+          "tahun": 2021,
+          "n": 4
+        },
+        {
+          "tahun": 2022,
+          "n": 3
+        },
+        {
+          "tahun": 2023,
+          "n": 1
+        },
+        {
+          "tahun": 2024,
+          "n": 1
+        }
+      ]
+    },
+    {
+      "name": "Universitas Sebelas Maret",
+      "count": 14,
+      "lat": -7.5567,
+      "lng": 110.8586,
+      "provinsi": "Jawa Tengah",
+      "status": "Negeri",
+      "jenis_kekerasan": [
+        {
+          "label": "Kekerasan Seksual (Umum)",
+          "value": 11
+        },
+        {
+          "label": "Pemaksaan Seksual",
+          "value": 1
+        }
+      ],
+      "pelaku": [
+        {
+          "label": "Dosen",
+          "value": 1
+        },
+        {
+          "label": "Pengurus BEM/Organisasi",
+          "value": 1
+        }
+      ],
+      "trend": [
+        {
+          "tahun": 2018,
+          "n": 2
+        },
+        {
+          "tahun": 2021,
+          "n": 1
+        },
+        {
+          "tahun": 2023,
+          "n": 2
+        },
+        {
+          "tahun": 2026,
+          "n": 9
+        }
+      ]
+    },
+    {
+      "name": "Universitas Sumatera Utara",
+      "count": 36,
+      "lat": 3.5669,
+      "lng": 98.6482,
+      "provinsi": "Sumatera Utara",
+      "status": "Negeri",
+      "jenis_kekerasan": [
+        {
+          "label": "Kekerasan Seksual (Umum)",
+          "value": 6
+        },
+        {
+          "label": "Pelecehan Seksual",
+          "value": 2
+        }
+      ],
+      "pelaku": [
+        {
+          "label": "Mahasiswa",
+          "value": 3
+        },
+        {
+          "label": "Rektor/Pimpinan",
+          "value": 2
+        },
+        {
+          "label": "Dosen",
+          "value": 1
+        }
+      ],
+      "trend": [
+        {
+          "tahun": 2021,
+          "n": 4
+        },
+        {
+          "tahun": 2022,
+          "n": 5
+        },
+        {
+          "tahun": 2023,
+          "n": 3
+        },
+        {
+          "tahun": 2026,
+          "n": 24
+        }
+      ]
+    },
+    {
+      "name": "Universitas Udayana",
+      "count": 4,
+      "lat": -8.7979,
+      "lng": 115.1664,
+      "provinsi": "Bali",
+      "status": "Negeri",
+      "jenis_kekerasan": [
+        {
+          "label": "Kekerasan Seksual (Umum)",
+          "value": 2
+        }
+      ],
+      "pelaku": [],
+      "trend": [
+        {
+          "tahun": 2023,
+          "n": 1
+        },
+        {
+          "tahun": 2024,
+          "n": 1
+        },
+        {
+          "tahun": 2025,
+          "n": 1
+        },
+        {
+          "tahun": 2026,
+          "n": 1
+        }
+      ]
+    }
+  ],
+  "heatmap_bulanan": [
+    {
+      "tahun": 2012,
+      "bulan": "March",
+      "bulan_id": "Maret",
+      "bulan_index": 2,
+      "jumlah": 2
+    },
+    {
+      "tahun": 2018,
+      "bulan": "November",
+      "bulan_id": "November",
+      "bulan_index": 10,
+      "jumlah": 4
+    },
+    {
+      "tahun": 2018,
+      "bulan": "December",
+      "bulan_id": "Desember",
+      "bulan_index": 11,
+      "jumlah": 4
+    },
+    {
+      "tahun": 2019,
+      "bulan": "February",
+      "bulan_id": "Februari",
+      "bulan_index": 1,
+      "jumlah": 6
+    },
+    {
+      "tahun": 2019,
+      "bulan": "April",
+      "bulan_id": "April",
+      "bulan_index": 3,
+      "jumlah": 3
+    },
+    {
+      "tahun": 2019,
+      "bulan": "May",
+      "bulan_id": "Mei",
+      "bulan_index": 4,
+      "jumlah": 1
+    },
+    {
+      "tahun": 2020,
+      "bulan": "June",
+      "bulan_id": "Juni",
+      "bulan_index": 5,
+      "jumlah": 1
+    },
+    {
+      "tahun": 2020,
+      "bulan": "July",
+      "bulan_id": "Juli",
+      "bulan_index": 6,
+      "jumlah": 7
+    },
+    {
+      "tahun": 2020,
+      "bulan": "August",
+      "bulan_id": "Agustus",
+      "bulan_index": 7,
+      "jumlah": 3
+    },
+    {
+      "tahun": 2020,
+      "bulan": "October",
+      "bulan_id": "Oktober",
+      "bulan_index": 9,
+      "jumlah": 1
+    },
+    {
+      "tahun": 2020,
+      "bulan": "November",
+      "bulan_id": "November",
+      "bulan_index": 10,
+      "jumlah": 3
+    },
+    {
+      "tahun": 2020,
+      "bulan": "December",
+      "bulan_id": "Desember",
+      "bulan_index": 11,
+      "jumlah": 1
+    },
+    {
+      "tahun": 2021,
+      "bulan": "January",
+      "bulan_id": "Januari",
+      "bulan_index": 0,
+      "jumlah": 2
+    },
+    {
+      "tahun": 2021,
+      "bulan": "February",
+      "bulan_id": "Februari",
+      "bulan_index": 1,
+      "jumlah": 2
+    },
+    {
+      "tahun": 2021,
+      "bulan": "March",
+      "bulan_id": "Maret",
+      "bulan_index": 2,
+      "jumlah": 4
+    },
+    {
+      "tahun": 2021,
+      "bulan": "April",
+      "bulan_id": "April",
+      "bulan_index": 3,
+      "jumlah": 5
+    },
+    {
+      "tahun": 2021,
+      "bulan": "May",
+      "bulan_id": "Mei",
+      "bulan_index": 4,
+      "jumlah": 1
+    },
+    {
+      "tahun": 2021,
+      "bulan": "June",
+      "bulan_id": "Juni",
+      "bulan_index": 5,
+      "jumlah": 2
+    },
+    {
+      "tahun": 2021,
+      "bulan": "July",
+      "bulan_id": "Juli",
+      "bulan_index": 6,
+      "jumlah": 2
+    },
+    {
+      "tahun": 2021,
+      "bulan": "September",
+      "bulan_id": "September",
+      "bulan_index": 8,
+      "jumlah": 1
+    },
+    {
+      "tahun": 2021,
+      "bulan": "October",
+      "bulan_id": "Oktober",
+      "bulan_index": 9,
+      "jumlah": 11
+    },
+    {
+      "tahun": 2021,
+      "bulan": "November",
+      "bulan_id": "November",
+      "bulan_index": 10,
+      "jumlah": 111
+    },
+    {
+      "tahun": 2021,
+      "bulan": "December",
+      "bulan_id": "Desember",
+      "bulan_index": 11,
+      "jumlah": 96
+    },
+    {
+      "tahun": 2022,
+      "bulan": "January",
+      "bulan_id": "Januari",
+      "bulan_index": 0,
+      "jumlah": 18
+    },
+    {
+      "tahun": 2022,
+      "bulan": "February",
+      "bulan_id": "Februari",
+      "bulan_index": 1,
+      "jumlah": 4
+    },
+    {
+      "tahun": 2022,
+      "bulan": "March",
+      "bulan_id": "Maret",
+      "bulan_index": 2,
+      "jumlah": 84
+    },
+    {
+      "tahun": 2022,
+      "bulan": "April",
+      "bulan_id": "April",
+      "bulan_index": 3,
+      "jumlah": 34
+    },
+    {
+      "tahun": 2022,
+      "bulan": "May",
+      "bulan_id": "Mei",
+      "bulan_index": 4,
+      "jumlah": 2
+    },
+    {
+      "tahun": 2022,
+      "bulan": "June",
+      "bulan_id": "Juni",
+      "bulan_index": 5,
+      "jumlah": 15
+    },
+    {
+      "tahun": 2022,
+      "bulan": "July",
+      "bulan_id": "Juli",
+      "bulan_index": 6,
+      "jumlah": 2
+    },
+    {
+      "tahun": 2022,
+      "bulan": "August",
+      "bulan_id": "Agustus",
+      "bulan_index": 7,
+      "jumlah": 7
+    },
+    {
+      "tahun": 2022,
+      "bulan": "September",
+      "bulan_id": "September",
+      "bulan_index": 8,
+      "jumlah": 8
+    },
+    {
+      "tahun": 2022,
+      "bulan": "October",
+      "bulan_id": "Oktober",
+      "bulan_index": 9,
+      "jumlah": 4
+    },
+    {
+      "tahun": 2022,
+      "bulan": "November",
+      "bulan_id": "November",
+      "bulan_index": 10,
+      "jumlah": 16
+    },
+    {
+      "tahun": 2022,
+      "bulan": "December",
+      "bulan_id": "Desember",
+      "bulan_index": 11,
+      "jumlah": 21
+    },
+    {
+      "tahun": 2023,
+      "bulan": "January",
+      "bulan_id": "Januari",
+      "bulan_index": 0,
+      "jumlah": 7
+    },
+    {
+      "tahun": 2023,
+      "bulan": "February",
+      "bulan_id": "Februari",
+      "bulan_index": 1,
+      "jumlah": 15
+    },
+    {
+      "tahun": 2023,
+      "bulan": "March",
+      "bulan_id": "Maret",
+      "bulan_index": 2,
+      "jumlah": 5
+    },
+    {
+      "tahun": 2023,
+      "bulan": "April",
+      "bulan_id": "April",
+      "bulan_index": 3,
+      "jumlah": 7
+    },
+    {
+      "tahun": 2023,
+      "bulan": "May",
+      "bulan_id": "Mei",
+      "bulan_index": 4,
+      "jumlah": 5
+    },
+    {
+      "tahun": 2023,
+      "bulan": "June",
+      "bulan_id": "Juni",
+      "bulan_index": 5,
+      "jumlah": 6
+    },
+    {
+      "tahun": 2023,
+      "bulan": "July",
+      "bulan_id": "Juli",
+      "bulan_index": 6,
+      "jumlah": 2
+    },
+    {
+      "tahun": 2023,
+      "bulan": "August",
+      "bulan_id": "Agustus",
+      "bulan_index": 7,
+      "jumlah": 6
+    },
+    {
+      "tahun": 2023,
+      "bulan": "September",
+      "bulan_id": "September",
+      "bulan_index": 8,
+      "jumlah": 15
+    },
+    {
+      "tahun": 2023,
+      "bulan": "October",
+      "bulan_id": "Oktober",
+      "bulan_index": 9,
+      "jumlah": 11
+    },
+    {
+      "tahun": 2023,
+      "bulan": "November",
+      "bulan_id": "November",
+      "bulan_index": 10,
+      "jumlah": 9
+    },
+    {
+      "tahun": 2023,
+      "bulan": "December",
+      "bulan_id": "Desember",
+      "bulan_index": 11,
+      "jumlah": 7
+    },
+    {
+      "tahun": 2024,
+      "bulan": "January",
+      "bulan_id": "Januari",
+      "bulan_index": 0,
+      "jumlah": 6
+    },
+    {
+      "tahun": 2024,
+      "bulan": "February",
+      "bulan_id": "Februari",
+      "bulan_index": 1,
+      "jumlah": 6
+    },
+    {
+      "tahun": 2024,
+      "bulan": "March",
+      "bulan_id": "Maret",
+      "bulan_index": 2,
+      "jumlah": 2
+    },
+    {
+      "tahun": 2024,
+      "bulan": "April",
+      "bulan_id": "April",
+      "bulan_index": 3,
+      "jumlah": 10
+    },
+    {
+      "tahun": 2024,
+      "bulan": "May",
+      "bulan_id": "Mei",
+      "bulan_index": 4,
+      "jumlah": 6
+    },
+    {
+      "tahun": 2024,
+      "bulan": "June",
+      "bulan_id": "Juni",
+      "bulan_index": 5,
+      "jumlah": 6
+    },
+    {
+      "tahun": 2024,
+      "bulan": "July",
+      "bulan_id": "Juli",
+      "bulan_index": 6,
+      "jumlah": 8
+    },
+    {
+      "tahun": 2024,
+      "bulan": "August",
+      "bulan_id": "Agustus",
+      "bulan_index": 7,
+      "jumlah": 6
+    },
+    {
+      "tahun": 2024,
+      "bulan": "September",
+      "bulan_id": "September",
+      "bulan_index": 8,
+      "jumlah": 6
+    },
+    {
+      "tahun": 2024,
+      "bulan": "October",
+      "bulan_id": "Oktober",
+      "bulan_index": 9,
+      "jumlah": 9
+    },
+    {
+      "tahun": 2024,
+      "bulan": "November",
+      "bulan_id": "November",
+      "bulan_index": 10,
+      "jumlah": 19
+    },
+    {
+      "tahun": 2024,
+      "bulan": "December",
+      "bulan_id": "Desember",
+      "bulan_index": 11,
+      "jumlah": 17
+    },
+    {
+      "tahun": 2025,
+      "bulan": "January",
+      "bulan_id": "Januari",
+      "bulan_index": 0,
+      "jumlah": 6
+    },
+    {
+      "tahun": 2025,
+      "bulan": "February",
+      "bulan_id": "Februari",
+      "bulan_index": 1,
+      "jumlah": 16
+    },
+    {
+      "tahun": 2025,
+      "bulan": "March",
+      "bulan_id": "Maret",
+      "bulan_index": 2,
+      "jumlah": 8
+    },
+    {
+      "tahun": 2025,
+      "bulan": "April",
+      "bulan_id": "April",
+      "bulan_index": 3,
+      "jumlah": 20
+    },
+    {
+      "tahun": 2025,
+      "bulan": "May",
+      "bulan_id": "Mei",
+      "bulan_index": 4,
+      "jumlah": 10
+    },
+    {
+      "tahun": 2025,
+      "bulan": "June",
+      "bulan_id": "Juni",
+      "bulan_index": 5,
+      "jumlah": 4
+    },
+    {
+      "tahun": 2025,
+      "bulan": "July",
+      "bulan_id": "Juli",
+      "bulan_index": 6,
+      "jumlah": 5
+    },
+    {
+      "tahun": 2025,
+      "bulan": "August",
+      "bulan_id": "Agustus",
+      "bulan_index": 7,
+      "jumlah": 17
+    },
+    {
+      "tahun": 2025,
+      "bulan": "September",
+      "bulan_id": "September",
+      "bulan_index": 8,
+      "jumlah": 8
+    },
+    {
+      "tahun": 2025,
+      "bulan": "October",
+      "bulan_id": "Oktober",
+      "bulan_index": 9,
+      "jumlah": 9
+    },
+    {
+      "tahun": 2025,
+      "bulan": "November",
+      "bulan_id": "November",
+      "bulan_index": 10,
+      "jumlah": 6
+    },
+    {
+      "tahun": 2025,
+      "bulan": "December",
+      "bulan_id": "Desember",
+      "bulan_index": 11,
+      "jumlah": 13
+    },
+    {
+      "tahun": 2026,
+      "bulan": "January",
+      "bulan_id": "Januari",
+      "bulan_index": 0,
+      "jumlah": 171
+    },
+    {
+      "tahun": 2026,
+      "bulan": "February",
+      "bulan_id": "Februari",
+      "bulan_index": 1,
+      "jumlah": 8
+    },
+    {
+      "tahun": 2026,
+      "bulan": "March",
+      "bulan_id": "Maret",
+      "bulan_index": 2,
+      "jumlah": 23
+    },
+    {
+      "tahun": 2026,
+      "bulan": "April",
+      "bulan_id": "April",
+      "bulan_index": 3,
+      "jumlah": 973
+    }
+  ],
+  "youtube_top": [
+    {
+      "video_id": "uewQg2I8sY8",
+      "judul": "VIRAL DOSEN DIDUGA LAKUKAN PELECEHAN DI KRL! Penumpang Teriak Minta Tolong ke Petugas Kereta",
+      "channel": "Tribunnews Bogor",
+      "views": 1110481,
+      "likes": 1601,
+      "komentar": 85,
+      "tanggal": "2026-03-16",
+      "url": "https://www.youtube.com/watch?v=uewQg2I8sY8",
+      "keyword": "kekerasan seksual dosen mahasiswa"
+    },
+    {
+      "video_id": "EKt_jIEfWdI",
+      "judul": "Modus Dosen Rayu Mahasiswi - Ringkus Predator Seksual Kampus (Part 1) | Mata Najwa",
+      "channel": "Najwa Shihab",
+      "views": 828229,
+      "likes": 21966,
+      "komentar": 1571,
+      "tanggal": "2021-11-10",
+      "url": "https://www.youtube.com/watch?v=EKt_jIEfWdI",
+      "keyword": "kekerasan seksual kampus"
+    },
+    {
+      "video_id": "GQVy_dns1gU",
+      "judul": "Tampang Mahasiswa Hukum UI Pelaku Pelecehan di Grup Chat, Korbannya Dosen hingga Kakak Sendiri",
+      "channel": "Tribunnews",
+      "views": 508538,
+      "likes": 962,
+      "komentar": 229,
+      "tanggal": "2026-04-14",
+      "url": "https://www.youtube.com/watch?v=GQVy_dns1gU",
+      "keyword": "pelecehan seksual mahasiswa"
+    },
+    {
+      "video_id": "5H1OXFi7dPo",
+      "judul": "VIRAL VIDEO DUGAAN PELECEHAN VERBAL KE MAHASISWA FH UI, KORBAN BERANI ANGKAT BICARA DI DEPAN UMUM",
+      "channel": "Tribunnews Manado",
+      "views": 406936,
+      "likes": 2600,
+      "komentar": 1473,
+      "tanggal": "2026-04-14",
+      "url": "https://www.youtube.com/watch?v=5H1OXFi7dPo",
+      "keyword": "kekerasan seksual kampus"
+    },
+    {
+      "video_id": "zEjheW005uI",
+      "judul": "Terbongkar! Grup Chat Mahasiswa FH UI Berisi Rencana Pelecehan Seksual terhadap Mahasiswi &amp; Dosen",
+      "channel": "Tribunnews",
+      "views": 346357,
+      "likes": 878,
+      "komentar": 146,
+      "tanggal": "2026-04-14",
+      "url": "https://www.youtube.com/watch?v=zEjheW005uI",
+      "keyword": "kekerasan seksual kampus"
+    },
+    {
+      "video_id": "o1JrhUFbTYM",
+      "judul": "Apakah Perguruan Tinggi Indonesia Gagal Melindungi Korban Kekerasan Seksual?",
+      "channel": "VICE Indonesia",
+      "views": 281710,
+      "likes": 17732,
+      "komentar": 1357,
+      "tanggal": "2019-04-07",
+      "url": "https://www.youtube.com/watch?v=o1JrhUFbTYM",
+      "keyword": "sexual harassment kampus indonesia"
+    },
+    {
+      "video_id": "DLgPNcpLx0M",
+      "judul": "Viral! Tampang Pelaku Chat Mesum Falkutas Hukum Mahasiswa UI Dipampang di Kampus, Isi Chat Dikuak",
+      "channel": "Tribunnews Bogor",
+      "views": 210838,
+      "likes": 506,
+      "komentar": 90,
+      "tanggal": "2026-04-13",
+      "url": "https://www.youtube.com/watch?v=DLgPNcpLx0M",
+      "keyword": "pelecehan seksual mahasiswa"
+    },
+    {
+      "video_id": "rhWxoA-32Lg",
+      "judul": "Ringkus Predator Seksual Kampus (FULL VERSION) | Mata Najwa",
+      "channel": "Narasi Newsroom",
+      "views": 170976,
+      "likes": 5306,
+      "komentar": 458,
+      "tanggal": "2021-11-13",
+      "url": "https://www.youtube.com/watch?v=rhWxoA-32Lg",
+      "keyword": "kekerasan seksual kampus"
+    },
+    {
+      "video_id": "r72HK4E6sUE",
+      "judul": "Daftar 16 Mahasiswa FH UI Terduga Pelecehan, Sempat Klaim Punya Bekingan Kuat Terungkap ke Publik!!",
+      "channel": "Tribunnews",
+      "views": 160429,
+      "likes": 407,
+      "komentar": 111,
+      "tanggal": "2026-04-14",
+      "url": "https://www.youtube.com/watch?v=r72HK4E6sUE",
+      "keyword": "pelecehan seksual mahasiswa"
+    },
+    {
+      "video_id": "JPL3EWwAzWk",
+      "judul": "Sosok di Balik Bocornya Chat Pelecehan Mahasiswa FH UI, Munif Bongkar Isi Chat usai Diketahui Pacar",
+      "channel": "Tribunnews Bogor",
+      "views": 160262,
+      "likes": 287,
+      "komentar": 18,
+      "tanggal": "2026-04-14",
+      "url": "https://www.youtube.com/watch?v=JPL3EWwAzWk",
+      "keyword": "pelecehan seksual mahasiswa"
+    },
+    {
+      "video_id": "5cnB4fU-M7I",
+      "judul": "Geger Grup Chat Mesum Mahasiswa FH UI di Medos, Rektor UI: Kita Lawan Kekerasan Seksual! | tvOne",
+      "channel": "tvOneNews",
+      "views": 137916,
+      "likes": 805,
+      "komentar": 736,
+      "tanggal": "2026-04-14",
+      "url": "https://www.youtube.com/watch?v=5cnB4fU-M7I",
+      "keyword": "kekerasan seksual kampus"
+    },
+    {
+      "video_id": "Wrzz8aSp7KQ",
+      "judul": "16 Mahasiswa FH UI Pelaku Pelecehan Terancam &#39;Drop Out&#39; - [Metro Siang]",
+      "channel": "METRO TV",
+      "views": 132739,
+      "likes": 634,
+      "komentar": 265,
+      "tanggal": "2026-04-15",
+      "url": "https://www.youtube.com/watch?v=Wrzz8aSp7KQ",
+      "keyword": "kekerasan seksual kampus"
+    },
+    {
+      "video_id": "c23y6J2CXXY",
+      "judul": "Pengakuan Korban Pelecehan Seksual oleh Mahasiswa FH UI, Sempat Ingin Laporkan Kasus sebelum Lebaran",
+      "channel": "Tribunnews",
+      "views": 126843,
+      "likes": 303,
+      "komentar": 74,
+      "tanggal": "2026-04-14",
+      "url": "https://www.youtube.com/watch?v=c23y6J2CXXY",
+      "keyword": "kekerasan seksual kampus"
+    },
+    {
+      "video_id": "I6gSIUauNPs",
+      "judul": "Fakta Terbaru, Korban Pelecehan Chat Mesum FH-UI: 20 Mahasiswi dan 7 Dosen",
+      "channel": "MerdekaDotCom",
+      "views": 109844,
+      "likes": 775,
+      "komentar": 369,
+      "tanggal": "2026-04-14",
+      "url": "https://www.youtube.com/watch?v=I6gSIUauNPs",
+      "keyword": "kekerasan seksual kampus"
+    },
+    {
+      "video_id": "a5Z4HmgKfOs",
+      "judul": "OKNUM DOSEN UNPAD L*CEHKAN MAHASISWI ! BUKTI DI VIRALKAN OLEH KORBAN",
+      "channel": "Kamar JERI",
+      "views": 101926,
+      "likes": 2176,
+      "komentar": 286,
+      "tanggal": "2026-04-21",
+      "url": "https://www.youtube.com/watch?v=a5Z4HmgKfOs",
+      "keyword": "pelecehan seksual mahasiswa"
+    },
+    {
+      "video_id": "69KsY5dkLt0",
+      "judul": "Kronologi Terungkapnya Pelecehan 16 Mahasiswa FH UI Lewat Grup Chat",
+      "channel": "Tribun Sumsel",
+      "views": 101755,
+      "likes": 497,
+      "komentar": 367,
+      "tanggal": "2026-04-14",
+      "url": "https://www.youtube.com/watch?v=69KsY5dkLt0",
+      "keyword": "kekerasan seksual kampus"
+    },
+    {
+      "video_id": "bTjMge9owKM",
+      "judul": "16 Mahasiswa Fakultas Hukum UI Diduga Melakukan Kekerasan Seksual",
+      "channel": "Tempodotco",
+      "views": 92856,
+      "likes": 754,
+      "komentar": 320,
+      "tanggal": "2026-04-13",
+      "url": "https://www.youtube.com/watch?v=bTjMge9owKM",
+      "keyword": "kekerasan seksual kampus"
+    },
+    {
+      "video_id": "xgGzxzMZatM",
+      "judul": "Citra &amp; Kuasa Predator Seksual Kampus",
+      "channel": "TirtoID",
+      "views": 66996,
+      "likes": 3008,
+      "komentar": 410,
+      "tanggal": "2020-06-05",
+      "url": "https://www.youtube.com/watch?v=xgGzxzMZatM",
+      "keyword": "kekerasan seksual kampus"
+    },
+    {
+      "video_id": "TVbejcEKXX0",
+      "judul": "Memanas! Ancaman Orangtua Pelaku Pelecehan Mahasiswa UI Mencuat, Ngaku Bakal Bawa Barracuda",
+      "channel": "Tribunnews Bogor",
+      "views": 64316,
+      "likes": 208,
+      "komentar": 58,
+      "tanggal": "2026-04-16",
+      "url": "https://www.youtube.com/watch?v=TVbejcEKXX0",
+      "keyword": "pelecehan seksual mahasiswa"
+    },
+    {
+      "video_id": "OAdyCiknZCk",
+      "judul": "INILAH TAMPANG MAHASISWA Hukum UI Pelaku Pelecehan di Grup Chat, Korbannya Dosen &amp; Kakak Sendiri",
+      "channel": "Harian Surya",
+      "views": 58453,
+      "likes": 0,
+      "komentar": 20,
+      "tanggal": "2026-04-15",
+      "url": "https://www.youtube.com/watch?v=OAdyCiknZCk",
+      "keyword": "pelecehan seksual mahasiswa"
+    }
+  ],
+  "youtube_trend": [
+    {
+      "tahun": 2019,
+      "video": 2,
+      "total_views": 297673
+    },
+    {
+      "tahun": 2020,
+      "video": 3,
+      "total_views": 72393
+    },
+    {
+      "tahun": 2021,
+      "video": 50,
+      "total_views": 1212689
+    },
+    {
+      "tahun": 2022,
+      "video": 29,
+      "total_views": 115496
+    },
+    {
+      "tahun": 2023,
+      "video": 28,
+      "total_views": 50164
+    },
+    {
+      "tahun": 2024,
+      "video": 25,
+      "total_views": 6426
+    },
+    {
+      "tahun": 2025,
+      "video": 15,
+      "total_views": 13922
+    },
+    {
+      "tahun": 2026,
+      "video": 124,
+      "total_views": 4892271
+    }
+  ],
+  "berita_terbaru": [
+    {
+      "judul": "DPR: Setiap Kampus Wajib Punya Satgas Pencegahan Kekerasan Seksual",
+      "sumber": "Google News",
+      "tanggal": "2026-04-24",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOMEJXenJrcDhjQXA4TFhsWW8zR0hRTDBLaUtwZlAyMXRKTjZWRmJQMzdPVnpaV2Ffbk1XNGxIOWZYLXJGbXZBQ2c1OXhOS3ZGbDBvYXZQLXBrRi1kbGliQnJ6dEdzMlgwNDY5RHl6M3hoS0wzNVV4S1FCc0lreG5QTkVuVTc3ejdFOUNYWnpGWU9XbDhXbWY3WGU4bHlQSjVMUjlaRllfVkJkMnM?oc=5",
+      "keyword": "peningkatan kekerasan seksual kampus"
+    },
+    {
+      "judul": "Kemendiktisaintek Terima 800 Laporan Kekerasan Seksual di Kampus",
+      "sumber": "Google News",
+      "tanggal": "2026-04-24",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE96eVRXeXgwOEc2NVVpcGk1Mmp3aUJPWkwzZEdhS1ZMOENsTFpVNF90WGtqQlY1OHZMRzdhdWFTZE9WaGVOLXF0UFVBYzdQUFF5RUVhamU0RjBEc1BsSS0zOG5WdHp3NEhlVjE3a2xkYWg3U1F1dWljdTdHd2lXUDA?oc=5",
+      "keyword": "statistik kekerasan seksual universitas"
+    },
+    {
+      "judul": "Berpikir dan Bekerja, Mengantar Jakarta Menuju Ibu Kota ASEAN",
+      "sumber": "Google News",
+      "tanggal": "2026-04-24",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQZmZhSWduU0FJMWRzbDVoUWtuckVFeXdFVUV4MmIydEtyRkI5dURMV21nT1ZwWWxLN2wzN0xMZkdGU2lURnFUeHh5aDNYd0pzNjU0Sm9YczNwM29ncU1xak1ndDhaM2w1V29tNmF2b1lQenVQTERwZ3R3VHVwQURNTHBleEVaNUc3elB2TkxlRmZldXR2?oc=5",
+      "keyword": "lonjakan pelecehan seksual mahasiswa"
+    },
+    {
+      "judul": "Ini Mekanisme Satgas PPKS UMRAH, dalam Tangani Kasus Kekerasan Seksual",
+      "sumber": "Google News",
+      "tanggal": "2026-04-24",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQUFpFeTZfYUV1OGpjLV9PN2FlUnNJMFk2ZGJDZEtYZ0NCaFU4aXh4Wlg2WDRSalpJRmhEcHgyVmZVbHhTQ2lrVThNTWFNeXpJcl9RczZja1FZSmhGVWlGWlNsT0tROTU2aDA2SU52UTNWZTRwMk9ZLVBZQXVxUzliSWNaQ3gxNmxzWkhEWi1YWDhWSUV5dFpTbGRucU9PaGktcm12UGoxV21ncFRlOWcwazN0b1JwWDNwanc?oc=5",
+      "keyword": "peningkatan kekerasan seksual kampus"
+    },
+    {
+      "judul": "Menimbang Pembatasan Batubara dan Hilirisasi demi Praktik Tambang Berkelanjutan",
+      "sumber": "Google News",
+      "tanggal": "2026-04-24",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPZU9jNXkwSHY5ZXNxWVh6NTBuaFJ0RGl1NkRpcGlicHExZm9WemUzenVDTm5ZYjZEY3cxa1p3bU43YWVhQUZKcnBYdXlnWndldWJwUkdmMEhrYWtJbFFXNE5PR3MxUG1uXzJIRlFVNGRLVU9ObW1WOEkxN2dzN0RkMjI3aDhKRlpNQjZMckRSTWszZFBKeEtQS01LTjVpdG1MSklxcDlRQjJQZw?oc=5",
+      "keyword": "lonjakan pelecehan seksual mahasiswa"
+    },
+    {
+      "judul": "Google Indonesia Lantik 2.000 Google Student Ambassador 2026, Fokus Literasi AI",
+      "sumber": "Google News",
+      "tanggal": "2026-04-23",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQWUNGeFpPNTdjVTBKdjFLVVdKa2w5UUVpZ2xaaG9BdDhFYTdVQlVhdk1yS1Zxa2lYTnAzajA3TERaajN2M0phSVotSWVaR2lPRXRDSk1GNkRfMnNJaW83bXd0dkxlRnBUTGVDekxpMlpsWTBHdFhWM3VZVjdLUy0yQzBseWV2ZlNGakZRNE0xaFNyUmIydnpaa0dQeHFkZnpiM0tBdDBoRVNtbGQyY3l0UGc5ME9La3JrMThNSF9n?oc=5",
+      "keyword": "lonjakan pelecehan seksual mahasiswa"
+    },
+    {
+      "judul": "Kasus Kekerasan Seksual Kampus Solo Naik, SPEK-HAM Dorong Perbanyak Pos Aduan hingga Edukasi Siber",
+      "sumber": "Google News",
+      "tanggal": "2026-04-23",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOdXp2RUwzcGVZV0Foc3hrRl92VFZrekZqN2tEMmxRcVhaVmhXUndsOXBWOHhOdi04dkMyMExYdzAtV0ZXcWdiY1Z1b0RGdDBtcm50bXBNU1RvalRLT015bkxUM0hoLVZEVEFKOUF0dDNvU1VDbldNTFpMdFFjUDlIVlp5MGZYakV1ZnlUemsxTFhjUndVcXhYeWFQWFFTdDV3REM5V0x2WEJ0VXVTZUFqWTBQMTFDSTFqVzVPNzR2RnNfVHdYVzVhaEh5Nkt4ZEtqQldz?oc=5",
+      "keyword": "peningkatan kekerasan seksual kampus"
+    },
+    {
+      "judul": "Cegah Kekerasan Seksual di Kampus Solo Merajalela, SPEK-HAM Desak Isu Ini Masuk Kurikulum Kampus!",
+      "sumber": "Google News",
+      "tanggal": "2026-04-23",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOT2oxMlNoMllBdl95U2RCUTlsblhmQ1E2SnZDWTdSNlBvekFIajNnMlJWeThvd1lycVpIXy1PZlYxZTkyZG5XZDZlVExkQ1JQUkhGZmFwSV8tQUM2bDROb1BIbXJqU0tsSlNWNzlra3NBZmt1TWNJQ1NaT0t4cTV2SXFES2NuS0JzNzZIUFZiSHVIOUU2cGhVRXdYaVZwOGktUXl2X2hYeEJvMHZueXdyQ21HdllEbGE4TGQ1dk1mY1p5cHhhbWNNR19iUW05MUY2?oc=5",
+      "keyword": "peningkatan kekerasan seksual kampus"
+    },
+    {
+      "judul": "Di Balik Peningkatan Temuan Kasus Kekerasan Seksual di Kampus Solo, Kesadaran Korban Melapor Naik",
+      "sumber": "Google News",
+      "tanggal": "2026-04-23",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPNmtKaFVnakdEUkdGRmpGamltNzVpTnZJQkxLdnJWb1J3TUZVRmlmM2VVY2h4bFpYSzVDVF9qcjgtY1psQ0x0ZFpNa1I5b0VoTi1HSHFXbmNfVjNvQUVjNE9KNnhCZTVnMVoycmdBSEFEd3JJRi1DTnZVVHlnUl9CVklNMXRXalNibmVvNk9UZW9RUHJBWmtIQ2g1RHJPLW5PYXZjZjFydUhBR1NoczloZ2djYTE5N3ltQ3BlZXR2SER6TVhaZUphNXFkMTYyV0J0WEE?oc=5",
+      "keyword": "peningkatan kekerasan seksual kampus"
+    },
+    {
+      "judul": "UMY Catat Lonjakan Mahasiswa Asing di Tengah Konflik Global",
+      "sumber": "Google News",
+      "tanggal": "2026-04-23",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNX0dUV04zdm9DMnlnODFLNmx3eHlqZlQ1LWxnMlotZUhIcTl5ekJWSVBUWklwMWRac0ZnNE14U2MxTmR2NWFEZjhYdEpvaUNiQ1RnNTlfamxyVW93ZFN4TVRZZS03YWpjQVNxUkhnSGhvRU9DR1B6OWtWTkhHUVFsYUQzRlRHSDNlYzF0X1gwWFAxVi10bHZZaFl5X3Itc1pvNGpBUU44cURZZC02T21uZERTTVE?oc=5",
+      "keyword": "lonjakan pelecehan seksual mahasiswa"
+    },
+    {
+      "judul": "Penjelasan Unsoed Soal Kasus Penganiayaan Mahasiswa",
+      "sumber": "Google News",
+      "tanggal": "2026-04-23",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOVWUxcUlfQ19QaGhySERfTWJWTTVWQnAySDNvMS1Ma19oY0t0LTZoYW9taHpHZUkzNUl2ZVNpRHhvdVg2cjkwT24tdTNZa0ZCWldhaUcwLU51LUhLSjhEaFgzcGl4RVVrR0hEeVRtQ1NrUnB4UTlqOVJsVWJlbW9OUlVUMFN3dGpEU1RQb2trOEVTVUcx?oc=5",
+      "keyword": "lonjakan pelecehan seksual mahasiswa"
+    },
+    {
+      "judul": "Angka Meledak, BEM FSH UNISNU: Kekerasan Seksual Butuh Intervensi Sistemik",
+      "sumber": "Google News",
+      "tanggal": "2026-04-22",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOeG04eTVMcVdRc1Y4TGVlVUxVaDBISXVyMWg4Nno4R0FPZl9Yc0EtM1NZOV9ocURoYnltSjVTRUllYzRmMFZlRHA0ZG9Qc1dGUEotaUtocUNDcllnR01aSVZjeGl3dk5xcVEwVVQxeWxhakVpbHpzR2RtLWlaOVJKQUNCRHNYSk5MT0hRMDd1SmxIS29GcExMZHFScFlDRk55UXhtaFZlZER4em1RdnlJ0gG0AUFVX3lxTE9yOWNjUHB5OXdWYjZpVFBhYjdOdmpEaWk1RWdEMlNGeHozX2FjaDBVNHpFSTZPRTBnTElTbklNVVQwdTRaVUp3M1lLOTZLeHN6bDMxdUFuNWZ0dmloUlBnRHQ2SjJjV2ZKRzFhVUFXeVN3X0g5MW1nR0pORTBFNk9uT0gtc3NPT3lpQ1BtUWVqSFZjTnRGQjk5Ti1ObzFWU1N2X2RDTDRpTlZjUUlXYmRQa0JWaw?oc=5",
+      "keyword": "lonjakan pelecehan seksual mahasiswa"
+    },
+    {
+      "judul": "Atalia Praratya Warning Keras Kasus Kekerasan Seksual di Kampus: Catcalling Bukan Candaan!",
+      "sumber": "Google News",
+      "tanggal": "2026-04-22",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOSVJnTzFkekIzZUo2WDhOVEZMaFh1UWFTOHRjWFBBbm9MOFpDY0g5N0NxXzVmSVdlbDBTRF9GeFZDVWhiUzUxRnNNN0h2MURWdTQwcFFFTXhjT0R0QmZqcmhDc3BkX0VLUjY2SWpFYlcyRUNiZVM1QWlFcEJyVFNYMVpUcklHSlFhMmJ6dTdkWF9ZQUVlcWViSWxZN2ZGWjQ?oc=5",
+      "keyword": "peningkatan kekerasan seksual kampus"
+    },
+    {
+      "judul": "Kekerasan Seksual di Kampus Solo Meningkat Drastis, SPEK-HAM Dorong Satgas PPK Polisikan Pelaku",
+      "sumber": "Google News",
+      "tanggal": "2026-04-22",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPUFJfMTNYYXhDNGNnU3ZZaVpPQkEwQVZRTjFaOFBaMjlKbG9NSmVlVFRSRU5XZ21ybHU2N0RYbktZN2FfUkgwNkhLbHhvQmh1eXlBZ2NGdm1CcDRQRF8tVnFOVk5xYld3U25EMVBDbERaSUFxckhENmpMVlN6dnRnVWRieW01dVc2U1hVSEp0LTBENm9OTG1RWTdLdG9HdE1UcWZ0SDlEbGZ6U1IxYU91VmoxYUNvZFNZUFlUSGxmd0pBRVo2MGtndHlkcHk5dzg?oc=5",
+      "keyword": "statistik kekerasan seksual universitas"
+    },
+    {
+      "judul": "Kekerasan Seksual di Kampus Solo Meningkat Drastis, SPEK-HAM Dorong Satgas PPK Polisikan Pelaku",
+      "sumber": "Google News",
+      "tanggal": "2026-04-22",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQakh4NkFTQi04c1RXNnN6S2tYMm1CLVRsUVhaemcwU0oxU2JUc0dNSHRsaDE4WGFDb1FSNEtJMVp6N2J3a2puUndiOG5ES0ZrQnZUcldpYUZVdjh0aTFhdVhMSWtxMWhiNWpjZHJuTWFWOUIxMXRsNFBDakhRQWhhQXQtYUxMWDJxRmVLN2lQOHVnR2lkeHR6cURaUGRZSkJrYUJYSk5tenREU2JHbEl0SVdiSjVuS3VCbHAwNVNsNGk5WF9wYnpUaXpUQWljUkJKbTF6ZDY4UzI?oc=5",
+      "keyword": "kasus kekerasan seksual meningkat kampus"
+    },
+    {
+      "judul": "Lonjakan Kekerasan Seksual terhadap Perempuan, Kasus FH UI Jadi Alarm",
+      "sumber": "Google News",
+      "tanggal": "2026-04-22",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOeTlQNWo2b1duRVNOZ0RXaF9jeENURDRpR09sV0dBeDY0SHBNUEN5eDN5Q1AyZzRSWlpEVEozdUxqWFJOV2IwM2JmUUhIRkRGNXl5djFrWTFyZzlnUlpudVpUSkp3NExuV2hDVTBCdjVtd1VzYzNxdF9PaDVzYTE5UzRHMk8zckFjTldhV2xzTFE5TEUyb0FDUnhrRGN4aXVmcm9OUENyQWJZY1HSAaoBQVVfeXFMTXJGaFlyN3dnY1dqU1JMRURvcGNGVVVDWVhzdzJ2YTdKZEN0dmYwTVhTUnJBSzI4N00tb2FWY2RmWURfVHlzUDY2LVQ5MEoxREFjTTUzMUdHUHoxMlRoMzJ5YVJ1Qk54cUVQV0lGX3FiQkZCcjQ2c1Y1Z3ZCYVNMRzJMSjdWNFZlMjQ4S1BUZFV4ZURWSk5XVHJFRURpaHR4X0ROWUFaWjg4RlE?oc=5",
+      "keyword": "lonjakan pelecehan seksual mahasiswa"
+    },
+    {
+      "judul": "Kartini dan Darurat Kekerasan Seksual Kampus",
+      "sumber": "Google News",
+      "tanggal": "2026-04-22",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNV09tbVdzMy1mblZ5RDdDV3VhMFR3dDhTR2dsdVVuQmRpQ2trOHV1VVFhZXBST2hZNlliUHFxTVdaZ3RBc0pTeG9vbHplOHplYVBpS3QzcjhMaW43Wm1KQ0ZNYm9HNjR0U2VPVHVWOTE1VzlGRWNGbV9xeGhfdnNsUk9VSVdTZlpQZ3hNY2U3bzNPU2RlRGoxUEM2UXI1eE4wZ3p1cNIBpAFBVV95cUxNV09tbVdzMy1mblZ5RDdDV3VhMFR3dDhTR2dsdVVuQmRpQ2trOHV1VVFhZXBST2hZNlliUHFxTVdaZ3RBc0pTeG9vbHplOHplYVBpS3QzcjhMaW43Wm1KQ0ZNYm9HNjR0U2VPVHVWOTE1VzlGRWNGbV9xeGhfdnNsUk9VSVdTZlpQZ3hNY2U3bzNPU2RlRGoxUEM2UXI1eE4wZ3p1cA?oc=5",
+      "keyword": "peningkatan kekerasan seksual kampus"
+    },
+    {
+      "judul": "UIN Imam Bonjol Tingkatkan Sistem Pencegahan dan Penanganan Kekerasan Seksual",
+      "sumber": "Google News",
+      "tanggal": "2026-04-22",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNWVdfMWFJMHhkdWg5SUlqNFJwcVl4MmtwUGZjcWl2S3dJQUhSVEJpZFd3aTZGbGloQ2VLbHJzZFhiUTBTbXdDWmo5bTZBS3BvYktXRndrVlZrU1U1MjZEaTlYZnROMVRWbEdUTUxrVFlBOUg4dHQwb2VfTXdTVGo2MzV1Yzh6bWsweXhjM2lGUGtDbTBtWDlxVEJrX3dLV1NZSkwxRFZwRGxNUkl1SVY1cnN1bkVuSEpVWGpKOVBxZ05oeEnSAcgBQVVfeXFMTWFtSVFqSzk2ZGtSNHNZUDAzZHFuNFo3VXA5MDJUamE2bXdndGZFQVFKaTNDTzBBVjhMcVNXZi1fbndVeElxdldLOFJ0cEo5VV9zSV9kdm04MTJ2NTdqbG9aVFktcktHd0hsZUEtSTBQTGZEUnFweWJmRURlbWNjSXZMbms3bDRvUlo2T3A0dk9JNU1jT2FMUS02SGlpTEdORlh2TFZYdGdaV3pCVXl1ejJoRmh1NW9seGNYVVFkaEdpNFpUUFlZcS0?oc=5",
+      "keyword": "peningkatan kekerasan seksual kampus"
+    },
+    {
+      "judul": "Apakah Ruang Kampus Masih Aman? Pertanyaan Besar di Balik Kasus Pelecehan UI",
+      "sumber": "Google News",
+      "tanggal": "2026-04-22",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPRHNkd2dudWZwOGlwODZnZ2pZazlVTXlSVWxSSTJja3doaFlVQUNmMDZzZUlpenJialhDMVduUjVIaEZwdmczRFc3WGpKRHk0VFhHM3lWV1A1bXUydlRvQWl0b1dwUXV4WWZYZjRjal9vdXRLMUxIOFJDLWI0U28zQnRWNGhYdXNfbHlQSUhYVE9iZVB2YnFaejl3MWJKLXAtV0EyUDBhM1dFaVV0NGxyMWdn0gGyAUFVX3lxTE9Ec2R3Z251ZnA4aXA4NmdnallrOVVNeVJVbFJJMmNrd2hoWVVBQ2YwNnNlSWl6cmJqWEMxV25SNUhoRnB2ZzNEVzdYakpEeTRUWEczeVZXUDVtdTJ2VG9BaXRvV3BRdXhZZlhmNGNqX291dEsxTEg4UkMtYjRTbzNCdFY0aFh1c19seVBJSFhUT2JlUHZicVp6OXcxYkotcC1XQTJQMGEzV0VpVXQ0bHIxZ2c?oc=5",
+      "keyword": "peningkatan kekerasan seksual kampus"
+    },
+    {
+      "judul": "Kasus Kekerasan Seksual Marak Terjadi di Lingkungan Perguruan Tinggi",
+      "sumber": "Google News",
+      "tanggal": "2026-04-22",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPWFJCSklURnVmdmlMbnM0MmtVV2R4OFI4TTl1SHNZXzhKVHBkR25SODNxTWdLYmNJWnA3UzUwMUgta1A1UjNBME03cnREcDZMQXRoVVRwMkpJdDE4UmpGbTNEaElocmJGcF9aMDZtbTZzQ2Z1ckRPOWFta0FIN0hJSVlB?oc=5",
+      "keyword": "statistik kekerasan seksual universitas"
+    },
+    {
+      "judul": "Ironi Kekerasan Seksual di Lingkungan Perguruan Tinggi",
+      "sumber": "Google News",
+      "tanggal": "2026-04-22",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE15aWhiRG11QVpnTVpHdGowQ3ZxTGZRbWx2SUg3ZngySlZvTTJQYlpoZDhXWFFsbk45cDB3c3YtRlVyekhraFhBS1NQUW1SdDBfYjF6Z2Q2QXhNaHhLMjhQdm4tSTU3Vy1FZGp3RE80MnRMVlZEbUVfSA?oc=5",
+      "keyword": "data kasus kekerasan seksual pendidikan tinggi"
+    },
+    {
+      "judul": "Puan: DPR Akan Awasi Isu Haji 2026 hingga Kekerasan Seksual",
+      "sumber": "Google News",
+      "tanggal": "2026-04-22",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPODQ4eUhDWWNCNDJYSEVXLXkwRDNaOEZZR2VtOXdPXzJJS29nV2JacHlMaFpFSjYySUdFcWI1UVBoTGJYN05IY2ZVc1JKVjZHMGpEZkF5bG84cDFtTVhSWHlFWGVaa2lUVmpVZmtCdTQ0UV9qNzJ4VkVLaDB6SjM0OHFVeExYaS1oSWRjanFvWDY5NnlaaExCMUNVMmZkZw?oc=5",
+      "keyword": "peningkatan kekerasan seksual kampus"
+    },
+    {
+      "judul": "Kemendiktisaintek Diminta Perketat Pengawasan Satgas Kampus, Saat Kasus Kekerasan Seks Masih Muncul",
+      "sumber": "Google News",
+      "tanggal": "2026-04-22",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQSS03WTltenBLMEMzY2htSTNGXzFYQmFhRXFzSlp0MjdESGFBeUpIelZyZEhIZl8yWUZnU2VNMW5USUQxVy1fbVRPZzNqVW9hc2FfaTc5dWMyV1piZEo0eW5BTnRRWDhMSnhPWUlVNUd6ZWVTa09CY2pvZGVQU3Y1MGtsQ1NYYXp0VXV5cXBpdm9zTTlBNC0tZE9nLXI1b1l6TXQ0OE1vdmt2dFlaamhpZng4VzFONTAxSlV2bnpaUTBXblhaclZIT2JHZlIzUG84MTRFbXVB0gHeAUFVX3lxTE9TdlFueHdNMHlHU3RrSzFSQTlVSGNidTNpTTZVWm9VSTR5REZLYkw0RHRCVTBLbURGQmxscEc0WVRqMTBXU1RiSmRfQWk5VnBkZm5pMVE2ZTdkbGJvVHI4VjRVejFjNW53MkZIWWJtUFlSLWxCaXhkSUl5SmMtZlpRUmt2b0czeV9LTEJJV295X1FxRjk4WC1yZDZTWVFRR09YRU9DMkZlQW1vUU0zVzlXNnl1bGtIMVMyOUhPMG4xYzdnZEtrcnZYZGg3bUgyWk5hLV9tV1RuRWJxUEFLUQ?oc=5",
+      "keyword": "data kasus kekerasan seksual pendidikan tinggi"
+    },
+    {
+      "judul": "Kekerasan Seksual di Lingkup Pendidikan Tinggi Menuntut Transformasi Sistemik",
+      "sumber": "Google News",
+      "tanggal": "2026-04-21",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOUExxYWZBanlqdk1abk1pTmlLTHlIWHM2WFlralRqcXdqdUlJOEhibEotTkpuNEY5T3FNS2ZrSHF2SVNCb09mVm15b04zckRrdVo5d3dJUWhQOXRBVXU5ZzJBNzBYZGxvT19ZZG51ZS0zcEw3ZTkwSzlOU3otWEZ2ZnFhQzROaXBxSzFvT0Nmclk4RVc3WHlqRXprbGdXRG4tUWZJVWkyd0pHOERSWExXQ1hFT2XSAbMBQVVfeXFMUEZoVjZtNEdHQkJQOFpCNHRiRVNEeVRLazhXTVdzNE5DYWF1d1kyck9Wb0lrV0dLUzdhRFR3NmtEa1J1cnJIQUE1UUFHbmQzWlkyS202WnRHWHNqR1JidU43dmktQmR0S3huWHJRTE5NZ0pkTzdwUGs0OUNlOFdPWlV6RkRxMnVfR0JsTlJTc3FLWU1xLTV3X05zQm1wZnlscTBwRHk4TVl4aGNuX3pfWFJ2cWs?oc=5",
+      "keyword": "data kasus kekerasan seksual pendidikan tinggi"
+    },
+    {
+      "judul": "Kemendiktisaintek Evaluasi Satgas PPKS Usai 233 Kasus",
+      "sumber": "Google News",
+      "tanggal": "2026-04-21",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQQlNUbWd6Snh4S2xndW92UDEwTGZ4bEFZZGF4SXVXMjFHOEZqRUZlOFhQWFRxeVZnS2dyaWUzamxXbGZVXzhEUmlIQ2lHRHVOclRDb18xVEk2ZHd2M0dsZWsxV3ZPVHZhQW1tVjl2T2FlVlNIRHctR0RYRzNrWmJOTGk2emIxUQ?oc=5",
+      "keyword": "statistik kekerasan seksual universitas"
+    },
+    {
+      "judul": "Kemendikti: Kasus kekerasan seksual di kampus meningkat",
+      "sumber": "Google News",
+      "tanggal": "2026-04-21",
+      "url": "https://news.google.com/rss/articles/CBMi4AJBVV95cUxOVWk5MmtRMXpBNnkxV0Q2R3FTSzI2SUlKYVlWX21FNFR1YkZpSkd1SGlkRWQtOGpMM1ppMVRlZEpBeHlub0JpOWE1a3VTOUVpQzlhZWtpN0JucnRBdkJpU2k2eWVOelo3Y2FRdDQtSFRsNW15Z0FfWGNaRUNrcDFKM0xQWVBUbV9ONWlEdjVwdmowLVhXZnMwYWU3UW03a2tySm5WdUhiVTRmb1RRTHh2RFpkdFNlVENFaWo3WVNEZWhYSmt5Uk9YSlBkS3B3VDhJUTV6aEJpaGQ0TmY3TXE4TzcxV2JiSlZnd1ZHY3c0dU5SdzF6YXBWQnNIeG1nOGpRT0JnVWd2cW9oWGhMZkI4T1RaNV9ER1NlRFZYMmdXdmdQRHU1Wm8wVEQtcjNGaVB3d2NJUDJjZXVmaDlGbEFCbGhnRHNOTHprOGgycDlxb0FVVzVXaGRMMk5HaXdUUHBK?oc=5",
+      "keyword": "kasus kekerasan seksual meningkat kampus"
+    },
+    {
+      "judul": "Darurat Kekerasan Seksual, Kemendiktisaintek Evaluasi Total Satgas PPKPT",
+      "sumber": "Google News",
+      "tanggal": "2026-04-21",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNS1Y0d0wzd25CdnNjY0RKd0tweHU4Ty1wUlQ0WFpRZFVyNHQ2Q3REbW82Zkt5dHVPXzBqQ2lzTGd3bU9TRFlrdW5MVXlURl9tUGV1SGhKMWRSS18zWm82N0djSVZIQzFheEIzeWJaZXY0QnBlUTVDM0FfQlZaem15cGp5ajVSalFMNndmS3YwaGlHS1VZWk02VHk2RmtqVk9OcEFQQUVLNGlPT1hn?oc=5",
+      "keyword": "kasus kekerasan seksual meningkat kampus"
+    },
+    {
+      "judul": "Kekerasan Seksual di Kampus, Kemendikti: Korban Berani Lapor",
+      "sumber": "Google News",
+      "tanggal": "2026-04-20",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOVzA3aGt4SDRCX2NfVzR3SDlQa3gyZXY5SzFObEhsM2JTaVJZSHZneFdnZERoTVF6WlJ1RHNxWGNBMXlvWmx5dzdiVDdWSGxINXNIVlo1ZW16V29BUkJmYWl2eWdnZlVVdWROZlIwWGNHbE50dGl0RHJubXdhZ0FZdkVwdlVQOXpDcUQ2QmhwQmY5eGowMzlXcHhKdw?oc=5",
+      "keyword": "peningkatan kekerasan seksual kampus"
+    },
+    {
+      "judul": "Kekerasan di UI hingga ITB meningkat, Komisi X DPR gelar rapat tertutup",
+      "sumber": "Google News",
+      "tanggal": "2026-04-20",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQOG8zOGlLZnFZUFU2OUQ3U2tjeXV3M2ZZdnBIMzFrcHdYVG5MQUVFd19SYVloOVp6RnpLNENxNnM5eW9mZmNJTi1TZG5qMl9JajEzYlR6T25KeXlISTQ3RmplTWlBYV9Zd2k2aUs2NWlRTzR3X2JtUnI3dlZJVlZPbDk3WWxWUlQ2a1dIV1dnUFBCZjF0Z016NUNkaElLUmNGV3VxbHpfenplQ0ZNb0V4bGlMRUNJb3RzOEdwZjExNkVNYmpIT2Foaw?oc=5",
+      "keyword": "kasus kekerasan seksual meningkat kampus"
+    },
+    {
+      "judul": "Dugaan pelecehan seksual di grup percakapan digital mahasiswa UI dan IPB – 'Harus dijerat hukum demi efek jera'",
+      "sumber": "Google News",
+      "tanggal": "2026-04-20",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9nZlhyanRsbXgzU3Q2bndHQnpMcTd1RklhZ1BFZ0FWeXBVTGpNb3NicXhKdXJndjFuSGxrOUlTUlZGZGR0eHlodTlmQ3pFdXJZVktjbWJkYjNwYzJrb0dBS9IBZkFVX3lxTE1nMFNGQlhJdWRjUlhXQ05CSWpSRXRHVGc4R19ZWHlvMzFRZ2JMX0g1NzMtNG9vNjFLSkxxbTM0T3Q3S0ctVTdKanJNOTNoNEhtNWJxd1hXVXF0aDkxdWxKbWdpN2Z5Zw?oc=5",
+      "keyword": "lonjakan pelecehan seksual mahasiswa"
+    }
+  ],
+  "crosstab": [
+    {
+      "pelaku": "Alumni",
+      "jenis": "KBGO",
+      "jumlah": 0
+    },
+    {
+      "pelaku": "Alumni",
+      "jenis": "Kekerasan Seksual (Umum)",
+      "jumlah": 0
+    },
+    {
+      "pelaku": "Alumni",
+      "jenis": "Pelecehan Seksual",
+      "jumlah": 0
+    },
+    {
+      "pelaku": "Alumni",
+      "jenis": "Pelecehan Verbal",
+      "jumlah": 0
+    },
+    {
+      "pelaku": "Alumni",
+      "jenis": "Pemerkosaan",
+      "jumlah": 0
+    },
+    {
+      "pelaku": "Dosen",
+      "jenis": "KBGO",
+      "jumlah": 0
+    },
+    {
+      "pelaku": "Dosen",
+      "jenis": "Kekerasan Seksual (Umum)",
+      "jumlah": 14
+    },
+    {
+      "pelaku": "Dosen",
+      "jenis": "Pelecehan Seksual",
+      "jumlah": 33
+    },
+    {
+      "pelaku": "Dosen",
+      "jenis": "Pelecehan Verbal",
+      "jumlah": 0
+    },
+    {
+      "pelaku": "Dosen",
+      "jenis": "Pemerkosaan",
+      "jumlah": 0
+    },
+    {
+      "pelaku": "Mahasiswa",
+      "jenis": "KBGO",
+      "jumlah": 0
+    },
+    {
+      "pelaku": "Mahasiswa",
+      "jenis": "Kekerasan Seksual (Umum)",
+      "jumlah": 23
+    },
+    {
+      "pelaku": "Mahasiswa",
+      "jenis": "Pelecehan Seksual",
+      "jumlah": 99
+    },
+    {
+      "pelaku": "Mahasiswa",
+      "jenis": "Pelecehan Verbal",
+      "jumlah": 3
+    },
+    {
+      "pelaku": "Mahasiswa",
+      "jenis": "Pemerkosaan",
+      "jumlah": 0
+    },
+    {
+      "pelaku": "Pengurus BEM/Organisasi",
+      "jenis": "KBGO",
+      "jumlah": 2
+    },
+    {
+      "pelaku": "Pengurus BEM/Organisasi",
+      "jenis": "Kekerasan Seksual (Umum)",
+      "jumlah": 7
+    },
+    {
+      "pelaku": "Pengurus BEM/Organisasi",
+      "jenis": "Pelecehan Seksual",
+      "jumlah": 9
+    },
+    {
+      "pelaku": "Pengurus BEM/Organisasi",
+      "jenis": "Pelecehan Verbal",
+      "jumlah": 0
+    },
+    {
+      "pelaku": "Pengurus BEM/Organisasi",
+      "jenis": "Pemerkosaan",
+      "jumlah": 0
+    },
+    {
+      "pelaku": "Rektor/Pimpinan",
+      "jenis": "KBGO",
+      "jumlah": 0
+    },
+    {
+      "pelaku": "Rektor/Pimpinan",
+      "jenis": "Kekerasan Seksual (Umum)",
+      "jumlah": 6
+    },
+    {
+      "pelaku": "Rektor/Pimpinan",
+      "jenis": "Pelecehan Seksual",
+      "jumlah": 5
+    },
+    {
+      "pelaku": "Rektor/Pimpinan",
+      "jenis": "Pelecehan Verbal",
+      "jumlah": 0
+    },
+    {
+      "pelaku": "Rektor/Pimpinan",
+      "jenis": "Pemerkosaan",
+      "jumlah": 0
+    }
+  ],
+  "kota_stats": [
+    {
+      "label": "Depok",
+      "value": 199
+    },
+    {
+      "label": "Yogyakarta",
+      "value": 108
+    },
+    {
+      "label": "Malang",
+      "value": 104
+    },
+    {
+      "label": "Medan",
+      "value": 37
+    },
+    {
+      "label": "Jakarta",
+      "value": 29
+    },
+    {
+      "label": "Surabaya",
+      "value": 27
+    },
+    {
+      "label": "Surakarta",
+      "value": 18
+    },
+    {
+      "label": "Sumedang",
+      "value": 18
+    },
+    {
+      "label": "Tangerang",
+      "value": 14
+    },
+    {
+      "label": "Jember",
+      "value": 12
+    },
+    {
+      "label": "Bandung",
+      "value": 10
+    },
+    {
+      "label": "Pekanbaru",
+      "value": 9
+    },
+    {
+      "label": "Palembang",
+      "value": 8
+    },
+    {
+      "label": "Bogor",
+      "value": 8
+    },
+    {
+      "label": "Makassar",
+      "value": 6
+    }
+  ]
+}
