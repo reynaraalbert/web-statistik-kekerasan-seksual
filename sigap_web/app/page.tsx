@@ -57,7 +57,7 @@ export default function Home() {
               </motion.div>
             </div>
 
-            <h1 className="text-5xl md:text-[100px] font-black tracking-tighter leading-[0.9] mb-16 font-serif text-[#8B0000] dark:text-white">
+            <h1 className="text-5xl md:text-[100px] font-black tracking-tighter leading-[0.9] mb-16 font-serif text-primary dark:text-white">
               {t("hero.title")}
             </h1>
             
@@ -93,10 +93,10 @@ export default function Home() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 2, duration: 1 }}
-          className="mt-20 flex flex-col items-center gap-4 text-[#8B0000] dark:!text-white"
+          className="mt-20 flex flex-col items-center gap-4 text-primary dark:text-white"
         >
           <span className="text-[10px] font-black tracking-[0.5em] uppercase">{t("hero.scroll")}</span>
-          <div className="w-[2px] h-10 bg-gradient-to-b from-[#8B0000] to-transparent rounded-full" />
+          <div className="w-[2px] h-10 bg-gradient-to-b from-primary to-transparent rounded-full" />
         </motion.div>
       </section>
 
