@@ -365,17 +365,17 @@ export default function Statistik() {
             {/* Visual - Order 2, Side by side */}
             <motion.div className="h-[400px] md:h-[550px] w-full glass-card p-4 md:p-10 rounded-[40px] md:rounded-[60px] order-2 lg:row-span-2">
               <ResponsiveContainer width="100%" height="100%">
-                <BarChart data={data.kota_stats} margin={{ top: 10, right: 5, left: 0, bottom: 70 }}>
+                <BarChart data={data.kota_stats} margin={{ top: 10, right: 5, left: 40, bottom: 60 }}>
                   <CartesianGrid strokeDasharray="5 5" vertical={false} stroke="var(--border)" />
                   <XAxis 
                     dataKey="label" 
-                    fontSize={7} 
+                    fontSize={6} 
                     fontWeight={900} 
                     stroke="currentColor"
                     interval={0}
                     angle={-45}
                     textAnchor="end"
-                    height={70}
+                    height={60}
                     tick={{ dy: 5 }}
                     className="uppercase tracking-widest text-black dark:text-white"
                   />
