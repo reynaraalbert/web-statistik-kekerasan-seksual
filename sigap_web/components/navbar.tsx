@@ -34,7 +34,12 @@ const Navbar = () => {
     { href: "/statistik", label: t("nav.stats"), icon: BarChart2 },
     { href: "/peta", label: t("nav.map"), icon: MapIcon },
     { href: "/media", label: t("nav.media"), icon: PlayCircle },
-    { href: "/upload", label: t("nav.upload"), icon: UploadCloud },
+    { 
+      href: "https://share.streamlit.io/user/repo/main/app.py", // REPLACE WITH YOUR ACTUAL STREAMLIT URL
+      label: t("nav.upload"), 
+      icon: UploadCloud,
+      isExternal: true 
+    },
   ];
 
   const toggleLanguage = () => setLanguage(language === "id" ? "en" : "id");
@@ -67,6 +72,8 @@ const Navbar = () => {
               <Link
                 key={link.href}
                 href={link.href}
+                target={link.isExternal ? "_blank" : undefined}
+                rel={link.isExternal ? "noopener noreferrer" : undefined}
                 className={cn(
                   "px-6 py-2.5 rounded-xl text-xs font-black uppercase tracking-widest transition-all",
                   pathname === link.href 
@@ -134,6 +141,8 @@ const Navbar = () => {
                 >
                   <Link
                     href={link.href}
+                    target={link.isExternal ? "_blank" : undefined}
+                    rel={link.isExternal ? "noopener noreferrer" : undefined}
                     onClick={() => setIsMobileMenuOpen(false)}
                     className={cn(
                       "flex items-center justify-between p-6 rounded-3xl transition-all",
