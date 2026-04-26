@@ -130,10 +130,18 @@ export default function Statistik() {
           animate={{ opacity: 1, y: 0 }}
           className="mb-20 text-center"
         >
-          <div className="inline-flex items-center gap-4 text-primary font-black uppercase tracking-[0.4em] text-[10px] mb-8">
+          <div className={cn(
+            "inline-flex items-center gap-4 font-black uppercase tracking-[0.4em] text-[10px] mb-8 transition-colors duration-500",
+            theme === 'dark' ? "text-white" : "text-[#8B0000]"
+          )}>
             <Scale className="w-4 h-4" /> {t("stats.badge.dissertation")}
           </div>
-          <h1 className="text-4xl md:text-[80px] font-black tracking-tighter mb-8 font-serif leading-[0.9]">{t("stats.title")}</h1>
+          <h1 className={cn(
+            "text-4xl md:text-[80px] font-black tracking-tighter mb-8 font-serif leading-[0.9] transition-colors duration-500",
+            theme === 'dark' ? "text-white" : "text-[#8B0000]"
+          )}>
+            {t("stats.title")}
+          </h1>
           <p className={cn("text-lg md:text-2xl max-w-4xl mx-auto font-medium leading-relaxed", theme === 'dark' ? "text-white" : "text-black")}>
             {t("stats.subtitle")}
           </p>
@@ -149,10 +157,16 @@ export default function Statistik() {
               viewport={{ once: true }}
               className="w-full order-1"
             >
-              <div className="inline-flex items-center gap-4 text-primary font-black uppercase tracking-[0.3em] text-[8px] md:text-[10px] mb-4 md:mb-6">
-                <div className="w-12 h-[2px] bg-primary" /> {t("stats.badge.typology")}
+              <div className={cn(
+                "inline-flex items-center gap-4 font-black uppercase tracking-[0.3em] text-[8px] md:text-[10px] mb-4 md:mb-6 transition-colors duration-500",
+                theme === 'dark' ? "text-white" : "text-[#8B0000]"
+              )}>
+                <div className={cn("w-12 h-[2px]", theme === 'dark' ? "bg-white" : "bg-[#8B0000]")} /> {t("stats.badge.typology")}
               </div>
-              <h2 className="text-2xl md:text-5xl font-black tracking-tighter mb-4 md:mb-8 leading-tight font-serif">
+              <h2 className={cn(
+                "text-2xl md:text-5xl font-black tracking-tighter mb-4 md:mb-8 leading-tight font-serif transition-colors duration-500",
+                theme === 'dark' ? "text-white" : "text-[#8B0000]"
+              )}>
                 {t("story.spectrum.title")}
               </h2>
             </motion.div>
@@ -210,7 +224,10 @@ export default function Statistik() {
               className="w-full order-3"
             >
               <div className="space-y-6">
-                <p className="news-article-p border-l-4 border-primary pl-6 italic font-bold text-sm md:text-lg">
+                <p className={cn(
+                  "news-article-p border-l-4 italic font-bold text-sm md:text-lg pl-6",
+                  theme === 'dark' ? "border-white text-white" : "border-[#8B0000] text-[#8B0000]"
+                )}>
                   {t("story.spectrum.p1")}
                 </p>
                 <p className="news-article-p text-black/80 dark:text-white/90 text-sm md:text-lg">
@@ -231,10 +248,16 @@ export default function Statistik() {
               viewport={{ once: true }}
               className="w-full order-1 lg:col-start-2"
             >
-              <div className="inline-flex items-center gap-4 text-primary font-black uppercase tracking-[0.3em] text-[8px] md:text-[10px] mb-4 md:mb-6">
-                <div className="w-12 h-[2px] bg-primary" /> {t("stats.badge.power")}
+              <div className={cn(
+                "inline-flex items-center gap-4 font-black uppercase tracking-[0.3em] text-[8px] md:text-[10px] mb-4 md:mb-6 transition-colors duration-500",
+                theme === 'dark' ? "text-white" : "text-[#8B0000]"
+              )}>
+                <div className={cn("w-12 h-[2px]", theme === 'dark' ? "bg-white" : "bg-[#8B0000]")} /> {t("stats.badge.power")}
               </div>
-              <h2 className="text-2xl md:text-5xl font-black tracking-tighter mb-4 md:mb-8 leading-tight font-serif">
+              <h2 className={cn(
+                "text-2xl md:text-5xl font-black tracking-tighter mb-4 md:mb-8 leading-tight font-serif transition-colors duration-500",
+                theme === 'dark' ? "text-white" : "text-[#8B0000]"
+              )}>
                 {t("story.perpetrator.title")}
               </h2>
             </motion.div>
@@ -301,7 +324,10 @@ export default function Statistik() {
               className="w-full order-3 lg:col-start-2"
             >
               <div className="space-y-6">
-                <p className="news-article-p border-l-4 border-foreground pl-6 italic font-bold text-sm md:text-lg">
+                <p className={cn(
+                  "news-article-p border-l-4 italic font-bold text-sm md:text-lg pl-6",
+                  theme === 'dark' ? "border-white text-white" : "border-black text-black"
+                )}>
                   {t("story.perpetrator.p1")}
                 </p>
                 <p className="news-article-p text-black/80 dark:text-white/90 text-sm md:text-lg">
@@ -322,10 +348,16 @@ export default function Statistik() {
               viewport={{ once: true }}
               className="w-full order-1"
             >
-               <div className="inline-flex items-center gap-4 text-primary font-black uppercase tracking-[0.3em] text-[8px] md:text-[10px] mb-4 md:mb-6">
-                <div className="w-12 h-[2px] bg-primary" /> {t("stats.badge.geography")}
+               <div className={cn(
+                 "inline-flex items-center gap-4 font-black uppercase tracking-[0.3em] text-[8px] md:text-[10px] mb-4 md:mb-6 transition-colors duration-500",
+                 theme === 'dark' ? "text-white" : "text-[#8B0000]"
+               )}>
+                <div className={cn("w-12 h-[2px]", theme === 'dark' ? "bg-white" : "bg-[#8B0000]")} /> {t("stats.badge.geography")}
               </div>
-              <h2 className="text-2xl md:text-5xl font-black tracking-tighter mb-4 md:mb-8 leading-tight font-serif">
+              <h2 className={cn(
+                "text-2xl md:text-5xl font-black tracking-tighter mb-4 md:mb-8 leading-tight font-serif transition-colors duration-500",
+                theme === 'dark' ? "text-white" : "text-[#8B0000]"
+              )}>
                 {t("story.geography.title")}
               </h2>
             </motion.div>
@@ -381,7 +413,10 @@ export default function Statistik() {
               className="w-full order-3"
             >
               <div className="space-y-6">
-                <p className="news-article-p border-l-4 border-[#8B0000] dark:border-white pl-6 italic dark:!text-white text-sm md:text-lg font-bold">
+                <p className={cn(
+                  "news-article-p border-l-4 italic font-bold text-sm md:text-lg pl-6",
+                  theme === 'dark' ? "border-white text-white" : "border-[#8B0000] text-[#8B0000]"
+                )}>
                   {t("story.geography.p1")}
                 </p>
                 <p className="news-article-p text-black/80 dark:text-white/90 text-sm md:text-lg">
@@ -394,10 +429,16 @@ export default function Statistik() {
           <div className="text-center max-w-4xl mx-auto flex flex-col gap-6">
               {/* 4. Annual Escalation Section (New) */}
               <div className="w-full mt-40">
-                <div className="inline-flex items-center gap-4 text-primary font-black uppercase tracking-[0.4em] text-[8px] md:text-[10px] mb-4 md:mb-6">
+                <div className={cn(
+                  "inline-flex items-center gap-4 font-black uppercase tracking-[0.4em] text-[8px] md:text-[10px] mb-4 md:mb-6 transition-colors duration-500",
+                  theme === 'dark' ? "text-white" : "text-[#8B0000]"
+                )}>
                   <TrendingUp className="w-4 h-4" /> {t("stats.badge.escalation")}
                 </div>
-                <h2 className="text-2xl md:text-6xl font-black tracking-tighter mb-4 md:mb-8 leading-[1.1] md:leading-[0.9] font-serif">
+                <h2 className={cn(
+                  "text-2xl md:text-6xl font-black tracking-tighter mb-4 md:mb-8 leading-[1.1] md:leading-[0.9] font-serif transition-colors duration-500",
+                  theme === 'dark' ? "text-white" : "text-[#8B0000]"
+                )}>
                   {t("story.escalation.title")}
                 </h2>
                 
@@ -455,7 +496,10 @@ export default function Statistik() {
                 </motion.div>
 
                 <div className="grid md:grid-cols-2 gap-10 text-left max-w-6xl mx-auto">
-                  <div className="news-article-p border-l-4 border-primary pl-6 italic font-bold text-sm md:text-lg">
+                  <div className={cn(
+                    "news-article-p border-l-4 italic font-bold text-sm md:text-lg pl-6",
+                    theme === 'dark' ? "border-white text-white" : "border-[#8B0000] text-[#8B0000]"
+                  )}>
                     {t("story.escalation.p1")}
                   </div>
                   <div className="news-article-p text-black/80 dark:text-white/90 text-sm md:text-lg">
@@ -465,10 +509,16 @@ export default function Statistik() {
               </div>
 
               <div className="w-full mt-40">
-                <div className="inline-flex items-center gap-4 text-primary font-black uppercase tracking-[0.4em] text-[8px] md:text-[10px] mb-4 md:mb-6">
+                <div className={cn(
+                  "inline-flex items-center gap-4 font-black uppercase tracking-[0.4em] text-[8px] md:text-[10px] mb-4 md:mb-6 transition-colors duration-500",
+                  theme === 'dark' ? "text-white" : "text-[#8B0000]"
+                )}>
                   <Calendar className="w-4 h-4" /> {t("stats.badge.temporal")}
                 </div>
-                <h2 className="text-2xl md:text-6xl font-black tracking-tighter mb-4 md:mb-8 leading-[1.1] md:leading-[0.9] font-serif">
+                <h2 className={cn(
+                  "text-2xl md:text-6xl font-black tracking-tighter mb-4 md:mb-8 leading-[1.1] md:leading-[0.9] font-serif transition-colors duration-500",
+                  theme === 'dark' ? "text-white" : "text-[#8B0000]"
+                )}>
                   {t("story.temporal.title")}
                 </h2>
                 
@@ -522,7 +572,10 @@ export default function Statistik() {
                 </motion.div>
 
                 <div className="grid md:grid-cols-2 gap-10 text-left max-w-6xl mx-auto">
-                  <div className="news-article-p border-l-4 border-foreground pl-6 italic font-bold text-sm md:text-lg">
+                  <div className={cn(
+                    "news-article-p border-l-4 italic font-bold text-sm md:text-lg pl-6",
+                    theme === 'dark' ? "border-white text-white" : "border-[#8B0000] text-[#8B0000]"
+                  )}>
                     {t("story.temporal.p1")}
                   </div>
                   <div className="news-article-p text-black/80 dark:text-white/90 text-sm md:text-lg">
