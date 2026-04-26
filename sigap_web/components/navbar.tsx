@@ -35,7 +35,7 @@ const Navbar = () => {
     { href: "/peta", label: t("nav.map"), icon: MapIcon },
     { href: "/media", label: t("nav.media"), icon: PlayCircle },
     { 
-      href: "https://share.streamlit.io/user/repo/main/app.py", // REPLACE WITH YOUR ACTUAL STREAMLIT URL
+      href: "https://kekerasan-seksual.streamlit.app/", 
       label: t("nav.upload"), 
       icon: UploadCloud,
       isExternal: true 
