@@ -34,12 +34,7 @@ const Navbar = () => {
     { href: "/statistik", label: t("nav.stats"), icon: BarChart2 },
     { href: "/peta", label: t("nav.map"), icon: MapIcon },
     { href: "/media", label: t("nav.media"), icon: PlayCircle },
-    { 
-      href: "https://kekerasan-seksual.streamlit.app/", 
-      label: t("nav.upload"), 
-      icon: UploadCloud,
-      isExternal: true 
-    },
+    { href: "/upload", label: t("nav.upload"), icon: UploadCloud },
   ];
 
   const toggleLanguage = () => setLanguage(language === "id" ? "en" : "id");

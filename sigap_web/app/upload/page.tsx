@@ -21,7 +21,7 @@ export default function Upload() {
 
   if (!mounted) return null;
 
-  const streamlitUrl = `http://localhost:8501/?embedded=true&theme=${theme === 'dark' ? 'dark' : 'light'}&lang=${language}`;
+  const streamlitUrl = `https://kekerasan-seksual.streamlit.app/?embedded=true&theme=${theme === 'dark' ? 'dark' : 'light'}&lang=${language}`;
 
   return (
     <main className="min-h-screen pb-20 bg-background grainy-bg">
