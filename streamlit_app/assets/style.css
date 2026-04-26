@@ -1,0 +1,673 @@
+/* ===================================================
+   SIGAP — Sistem Informasi Kekerasan Seksual PT
+   IDX-inspired Portal News Style CSS
+   =================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap');
+
+/* ---- Root Variables (Dark Elegant Theme) ---- */
+:root {
+    --primary: #D4A017;
+    --primary-dark: #B8860B;
+    --primary-light: #F0C040;
+    --navy: #1A1A2E;
+    --navy-light: #16213E;
+    --red: #8B0000;
+    --red-light: #C0392B;
+    --gold: #D4A017;
+    --gold-light: #F0C040;
+    --bg: #0D0D0D;
+    --bg-card: #141414;
+    --bg-card2: #1A1A2E;
+    --white: #E8E8E8;
+    --gray-100: #1E1E2E;
+    --gray-200: #252535;
+    --gray-300: #333350;
+    --gray-600: #9090A0;
+    --gray-800: #C0C0D0;
+    --success: #2ECC71;
+    --warning: #F39C12;
+    --danger: #E74C3C;
+    --shadow-sm: 0 1px 3px rgba(0,0,0,0.5);
+    --shadow-md: 0 4px 20px rgba(0,0,0,0.6);
+    --shadow-lg: 0 8px 40px rgba(0,0,0,0.7);
+    --radius: 10px;
+    --radius-lg: 18px;
+    --transition: all 0.28s ease;
+}
+
+/* ---- Global Reset ---- */
+* { box-sizing: border-box; }
+
+.main .block-container {
+    padding-top: 1rem !important;
+    padding-bottom: 2rem !important;
+    max-width: 1200px !important;
+    background: var(--bg) !important;
+}
+
+/* ---- Hide default Streamlit elements ---- */
+#MainMenu { visibility: hidden; }
+footer { visibility: hidden; }
+.stDeployButton { display: none; }
+header[data-testid="stHeader"] { display: none; }
+
+/* ---- Base body dark ---- */
+body, .stApp {
+    background: var(--bg) !important;
+}
+
+/* ---- Sidebar ---- */
+[data-testid="stSidebar"] {
+    background: var(--navy) !important;
+    border-right: 3px solid var(--primary) !important;
+}
+
+[data-testid="stSidebar"] * {
+    color: #E0E0E0 !important;
+}
+
+[data-testid="stSidebar"] .stRadio label {
+    color: #E0E0E0 !important;
+    font-family: 'Plus Jakarta Sans', sans-serif !important;
+    font-size: 0.9rem;
+}
+
+[data-testid="stSidebar"] .stSelectbox label,
+[data-testid="stSidebar"] .stMultiSelect label {
+    color: var(--gold-light) !important;
+    font-weight: 600 !important;
+    font-size: 0.8rem !important;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+/* ---- Metric Cards ---- */
+[data-testid="metric-container"] {
+    background: var(--bg-card) !important;
+    border: 1px solid var(--gray-200) !important;
+    border-radius: var(--radius) !important;
+    padding: 1rem !important;
+    box-shadow: var(--shadow-sm) !important;
+    border-left: 4px solid var(--primary) !important;
+    transition: var(--transition) !important;
+}
+
+[data-testid="metric-container"]:hover {
+    box-shadow: var(--shadow-md) !important;
+    transform: translateY(-2px);
+    border-left-color: var(--primary-light) !important;
+}
+
+[data-testid="metric-container"] [data-testid="stMetricLabel"] {
+    font-family: 'Inter', sans-serif !important;
+    font-size: 0.75rem !important;
+    font-weight: 600 !important;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--gray-600) !important;
+}
+
+[data-testid="metric-container"] [data-testid="stMetricValue"] {
+    font-family: 'Plus Jakarta Sans', sans-serif !important;
+    font-size: 2rem !important;
+    font-weight: 800 !important;
+    color: var(--primary) !important;
+}
+
+/* ---- Tabs ---- */
+[data-testid="stTabs"] [data-baseweb="tab-list"] {
+    background: var(--gray-100) !important;
+    border-radius: var(--radius) !important;
+    padding: 4px !important;
+    gap: 2px !important;
+    border: 1px solid var(--gray-200) !important;
+}
+
+[data-testid="stTabs"] [data-baseweb="tab"] {
+    background: transparent !important;
+    border-radius: 6px !important;
+    font-family: 'Plus Jakarta Sans', sans-serif !important;
+    font-weight: 600 !important;
+    font-size: 0.85rem !important;
+    color: var(--gray-600) !important;
+    padding: 0.5rem 1rem !important;
+    transition: var(--transition) !important;
+}
+
+[data-testid="stTabs"] [aria-selected="true"] {
+    background: var(--primary) !important;
+    color: white !important;
+}
+
+/* ---- File Uploader ---- */
+[data-testid="stFileUploader"] {
+    border: 2px dashed var(--primary) !important;
+    border-radius: var(--radius-lg) !important;
+    background: rgba(139, 0, 0, 0.03) !important;
+    padding: 1.5rem !important;
+    transition: var(--transition) !important;
+}
+
+[data-testid="stFileUploader"]:hover {
+    background: rgba(139, 0, 0, 0.06) !important;
+}
+
+/* ---- Buttons ---- */
+.stButton > button {
+    background: var(--primary) !important;
+    color: white !important;
+    border: none !important;
+    border-radius: var(--radius) !important;
+    font-family: 'Plus Jakarta Sans', sans-serif !important;
+    font-weight: 600 !important;
+    font-size: 0.9rem !important;
+    padding: 0.6rem 1.5rem !important;
+    transition: var(--transition) !important;
+    box-shadow: var(--shadow-sm) !important;
+}
+
+.stButton > button:hover {
+    background: var(--primary-dark) !important;
+    box-shadow: var(--shadow-md) !important;
+    transform: translateY(-1px);
+}
+
+/* ---- Selectbox & Multiselect ---- */
+[data-testid="stSelectbox"] > div > div,
+[data-testid="stMultiSelect"] > div > div {
+    border-color: var(--gray-300) !important;
+    border-radius: var(--radius) !important;
+    font-family: 'Inter', sans-serif !important;
+}
+
+/* ---- Expander ---- */
+[data-testid="stExpander"] {
+    border: 1px solid var(--gray-200) !important;
+    border-radius: var(--radius) !important;
+    box-shadow: var(--shadow-sm) !important;
+}
+
+[data-testid="stExpander"] summary {
+    font-family: 'Plus Jakarta Sans', sans-serif !important;
+    font-weight: 600 !important;
+    color: var(--navy) !important;
+}
+
+/* ---- DataFrames ---- */
+[data-testid="stDataFrame"] {
+    border-radius: var(--radius) !important;
+    overflow: hidden !important;
+    box-shadow: var(--shadow-sm) !important;
+    border: 1px solid var(--gray-200) !important;
+}
+
+/* ---- Dividers ---- */
+hr {
+    border: none !important;
+    border-top: 2px solid var(--gray-200) !important;
+    margin: 1.5rem 0 !important;
+}
+
+/* ---- Custom HTML Components ---- */
+.sigap-navbar {
+    background: rgba(10,10,20,0.95);
+    border-bottom: 2px solid var(--primary);
+    padding: 0.8rem 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 4px 30px rgba(0,0,0,0.8);
+    margin-bottom: 1.5rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    backdrop-filter: blur(10px);
+}
+
+.sigap-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.sigap-logo-mark {
+    width: 40px;
+    height: 40px;
+    background: var(--primary);
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 800;
+    font-size: 1.1rem;
+}
+
+.sigap-logo-text {
+    line-height: 1.1;
+}
+
+.sigap-logo-name {
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: var(--gold-light);
+    letter-spacing: -0.02em;
+}
+
+.sigap-logo-tagline {
+    font-size: 0.65rem;
+    color: var(--gray-600);
+    font-weight: 500;
+}
+
+.sigap-nav-links {
+    display: flex;
+    gap: 0.2rem;
+}
+
+.sigap-nav-link {
+    padding: 0.4rem 0.9rem;
+    border-radius: 6px;
+    font-size: 0.82rem;
+    font-weight: 600;
+    color: rgba(220,220,220,0.85);
+    text-decoration: none;
+    transition: var(--transition);
+    white-space: nowrap;
+    cursor: default;
+}
+
+.sigap-nav-link:hover, .sigap-nav-link.active {
+    background: var(--primary);
+    color: #0D0D0D;
+}
+
+.sigap-badge {
+    background: var(--primary);
+    color: white;
+    font-size: 0.7rem;
+    font-weight: 700;
+    padding: 2px 8px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+/* ---- Hero Section ---- */
+.sigap-hero {
+    background: linear-gradient(135deg, #050510 0%, #0D0D2E 40%, #1A0A00 80%, #2A1500 100%);
+    border-radius: var(--radius-lg);
+    padding: 3rem 2.5rem;
+    margin-bottom: 2rem;
+    position: relative;
+    overflow: hidden;
+    color: white;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    border: 1px solid rgba(212,160,23,0.2);
+    box-shadow: 0 0 60px rgba(212,160,23,0.08), inset 0 0 60px rgba(0,0,0,0.5);
+}
+
+.sigap-hero::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    right: -10%;
+    width: 400px;
+    height: 400px;
+    background: rgba(255,255,255,0.04);
+    border-radius: 50%;
+}
+
+.sigap-hero::after {
+    content: '';
+    position: absolute;
+    bottom: -30%;
+    right: 20%;
+    width: 250px;
+    height: 250px;
+    background: rgba(212, 160, 23, 0.1);
+    border-radius: 50%;
+}
+
+.sigap-hero-eyebrow {
+    display: inline-block;
+    background: rgba(212, 160, 23, 0.2);
+    border: 1px solid var(--gold);
+    color: var(--gold-light);
+    font-size: 0.75rem;
+    font-weight: 700;
+    padding: 4px 12px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    margin-bottom: 1rem;
+}
+
+.sigap-hero h1 {
+    font-size: 2.2rem !important;
+    font-weight: 800 !important;
+    line-height: 1.2 !important;
+    color: white !important;
+    margin-bottom: 1rem !important;
+}
+
+.sigap-hero-sub {
+    font-size: 1rem;
+    color: rgba(255,255,255,0.75);
+    line-height: 1.6;
+    max-width: 700px;
+    margin-bottom: 1.5rem;
+}
+
+.sigap-hero-stats {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.sigap-hero-stat {
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+.sigap-hero-stat-num {
+    font-size: 2rem;
+    font-weight: 800;
+    color: var(--gold-light);
+    line-height: 1;
+}
+
+.sigap-hero-stat-label {
+    font-size: 0.7rem;
+    color: rgba(255,255,255,0.65);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    font-weight: 600;
+    margin-top: 4px;
+}
+
+/* ---- Stat Cards ---- */
+.stat-card {
+    background: var(--bg-card);
+    border-radius: var(--radius);
+    padding: 1.25rem;
+    box-shadow: var(--shadow-sm);
+    border-left: 4px solid var(--primary);
+    transition: var(--transition);
+    font-family: 'Inter', sans-serif;
+    border: 1px solid var(--gray-200);
+}
+
+.stat-card:hover {
+    box-shadow: var(--shadow-md);
+    transform: translateY(-2px);
+    border-left-color: var(--primary-light);
+}
+
+.stat-card-value {
+    font-size: 2rem;
+    font-weight: 800;
+    color: var(--primary);
+    line-height: 1;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.stat-card-label {
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--gray-600);
+    margin-top: 6px;
+}
+
+.stat-card-desc {
+    font-size: 0.82rem;
+    color: var(--gray-600);
+    margin-top: 4px;
+}
+
+/* ---- Section Headers ---- */
+.section-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 1.25rem;
+    margin-top: 1.5rem;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.section-header-bar {
+    width: 4px;
+    height: 22px;
+    background: var(--primary);
+    border-radius: 2px;
+}
+
+.section-header-title {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--navy);
+}
+
+.section-header-sub {
+    font-size: 0.82rem;
+    color: var(--gray-600);
+    font-weight: 400;
+    margin-left: auto;
+}
+
+/* ---- Story Box ---- */
+.story-box {
+    background: linear-gradient(135deg, rgba(212,160,23,0.06), rgba(26,26,46,0.8));
+    border: 1px solid rgba(212,160,23,0.25);
+    border-left: 4px solid var(--primary);
+    border-radius: var(--radius);
+    padding: 1.25rem 1.5rem;
+    margin: 1rem 0;
+    font-family: 'Inter', sans-serif;
+    position: relative;
+}
+
+.story-box::before {
+    content: '"';
+    font-size: 4rem;
+    color: rgba(212,160,23,0.1);
+    position: absolute;
+    top: -10px;
+    left: 10px;
+    font-family: Georgia, serif;
+    line-height: 1;
+}
+
+.story-box-title {
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--primary);
+    margin-bottom: 0.6rem;
+}
+
+.story-box p {
+    font-size: 0.92rem;
+    line-height: 1.7;
+    color: var(--gray-800);
+    margin: 0;
+}
+
+.story-box strong {
+    color: var(--primary-light);
+}
+
+/* ---- News Ticker ---- */
+.ticker-wrapper {
+    background: var(--primary);
+    color: white;
+    padding: 0.5rem 0;
+    overflow: hidden;
+    border-radius: var(--radius);
+    margin-bottom: 1.5rem;
+    display: flex;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+}
+
+.ticker-label {
+    background: var(--navy);
+    padding: 0.3rem 0.9rem;
+    font-size: 0.7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    white-space: nowrap;
+    flex-shrink: 0;
+}
+
+.ticker-content {
+    padding: 0 1rem;
+    font-size: 0.82rem;
+    font-weight: 500;
+    opacity: 0.92;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+/* ---- News Card ---- */
+.news-card {
+    background: var(--bg-card);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow-sm);
+    padding: 1rem;
+    margin-bottom: 0.75rem;
+    border: 1px solid var(--gray-200);
+    transition: var(--transition);
+    font-family: 'Inter', sans-serif;
+}
+
+.news-card:hover {
+    box-shadow: var(--shadow-md);
+    border-left: 3px solid var(--primary);
+    padding-left: calc(1rem - 2px);
+    background: var(--gray-100);
+}
+
+.news-card-title {
+    font-size: 0.88rem;
+    font-weight: 600;
+    color: var(--white);
+    line-height: 1.4;
+    margin-bottom: 0.35rem;
+}
+
+.news-card-meta {
+    font-size: 0.73rem;
+    color: var(--gray-600);
+    display: flex;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+}
+
+.news-card-tag {
+    display: inline-block;
+    background: rgba(212,160,23,0.12);
+    color: var(--primary);
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 0.7rem;
+    font-weight: 600;
+}
+
+/* ---- Upload Area ---- */
+.upload-success {
+    background: linear-gradient(135deg, #f0fff4, #fff);
+    border: 1px solid #28a745;
+    border-left: 4px solid #28a745;
+    border-radius: var(--radius);
+    padding: 1rem 1.25rem;
+    font-family: 'Inter', sans-serif;
+}
+
+.upload-guide {
+    background: var(--gray-100);
+    border-radius: var(--radius);
+    padding: 1.25rem;
+    font-family: 'Inter', sans-serif;
+    border: 1px solid var(--gray-200);
+}
+
+.upload-guide h4 {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 700;
+    color: var(--navy);
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+}
+
+.col-badge {
+    display: inline-block;
+    background: rgba(139,0,0,0.1);
+    color: var(--primary);
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    font-weight: 700;
+    font-family: 'Courier New', monospace;
+    margin: 2px;
+}
+
+.col-badge.optional {
+    background: rgba(108,117,125,0.1);
+    color: var(--gray-600);
+}
+
+/* ---- Footer ---- */
+.sigap-footer {
+    background: linear-gradient(135deg, #050510, #0D0D20);
+    color: rgba(220,220,220,0.5);
+    border: 1px solid rgba(212,160,23,0.15);
+    padding: 1.5rem 2rem;
+    border-radius: var(--radius-lg);
+    margin-top: 3rem;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.8rem;
+}
+
+.sigap-footer strong {
+    color: var(--gold-light);
+}
+
+/* ---- Alert/Info Box ---- */
+.alert-box {
+    border-radius: var(--radius);
+    padding: 1rem 1.25rem;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.88rem;
+    line-height: 1.6;
+    margin: 0.75rem 0;
+}
+
+.alert-box.warning {
+    background: rgba(255, 193, 7, 0.1);
+    border: 1px solid rgba(255, 193, 7, 0.4);
+    border-left: 4px solid #FFC107;
+    color: #664d03;
+}
+
+.alert-box.info {
+    background: rgba(13, 110, 253, 0.05);
+    border: 1px solid rgba(13, 110, 253, 0.2);
+    border-left: 4px solid #0d6efd;
+    color: #084298;
+}
+
+/* ---- Scrollbar ---- */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: var(--gray-100); }
+::-webkit-scrollbar-thumb { background: var(--primary); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: var(--primary-dark); }

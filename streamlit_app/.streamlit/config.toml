@@ -1,0 +1,14 @@
+[theme]
+primaryColor = "#8B0000"
+font = "sans serif"
+
+[client]
+showSidebarNavigation = false
+
+[server]
+headless = false
+port = 8501
+enableCORS = false
+
+[browser]
+gatherUsageStats = false

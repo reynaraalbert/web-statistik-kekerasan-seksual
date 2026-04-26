@@ -1,0 +1,23 @@
+# Python
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+.ipynb_checkpoints
+
+# Next.js
+sigap_web/node_modules/
+sigap_web/.next/
+sigap_web/out/
+sigap_web/.env*.local
+
+# Data & Backups
+*.bak
+*.log
+data/raw/
+!data/processed/
+
+# OS
+.DS_Store
+Thumbs.db
