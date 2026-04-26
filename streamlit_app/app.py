@@ -107,7 +107,7 @@ st.markdown(f"""
     [data-testid="stFileUploader"] label, 
     [data-testid="stFileUploader"] div, 
     [data-testid="stFileUploader"] small {{
-        color: {'#FFFFFF' if theme == 'light' else text_color} !important;
+        color: {text_color} !important;
     }}
     
     .stButton>button {{
