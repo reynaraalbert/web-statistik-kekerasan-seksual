@@ -129,24 +129,24 @@ export default function Home() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 className={cn(
-                  "p-10 md:p-12 rounded-[50px] transition-all duration-500 glass-card flex flex-col items-center text-center",
+                  "p-8 md:p-10 rounded-[50px] transition-all duration-500 glass-card flex flex-col items-center text-center min-h-[350px] justify-center",
                   stat.highlight && "!bg-[#8B0000] text-white border-none shadow-[#8B0000]/20"
                 )}
               >
                 <div className={cn(
-                  "w-16 h-16 rounded-3xl flex items-center justify-center mb-10",
+                  "w-14 h-14 rounded-2xl flex items-center justify-center mb-8",
                   stat.highlight ? "bg-white/20 text-white" : "bg-[#8B0000]/20 dark:bg-white/20 text-[#8B0000] dark:text-white"
                 )}>
-                  <stat.icon className="w-8 h-8" />
+                  <stat.icon className="w-6 h-6" />
                 </div>
                 <div className={cn(
-                  "text-4xl md:text-5xl lg:text-6xl font-black tracking-tighter mb-4 break-words w-full",
+                  "text-3xl md:text-4xl lg:text-5xl font-black tracking-tighter mb-4 whitespace-nowrap",
                   stat.highlight ? "text-white" : (theme === 'dark' ? "text-white" : "text-black")
                 )}>
                   {typeof stat.val === "number" ? formatNumber(stat.val) : stat.val}
                 </div>
                 <div className={cn(
-                  "text-[10px] md:text-xs font-black uppercase tracking-[0.3em]",
+                  "text-[9px] md:text-[10px] font-black uppercase tracking-[0.2em] leading-tight max-w-[150px]",
                   stat.highlight ? "text-white" : (theme === 'dark' ? "text-white/80" : "text-black/80")
                 )}>
                   {stat.label}
