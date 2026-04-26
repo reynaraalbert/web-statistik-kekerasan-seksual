@@ -250,14 +250,14 @@ export default function Statistik() {
                 <BarChart
                   data={translatedPerps}
                   layout="vertical"
-                  margin={{ top: 20, right: 30, left: 0, bottom: 20 }}
+                  margin={{ top: 20, right: 30, left: 40, bottom: 20 }}
                 >
                   <CartesianGrid strokeDasharray="5 5" horizontal={false} stroke="var(--border)" />
                   <XAxis type="number" hide />
                   <YAxis 
                     dataKey="label" 
                     type="category" 
-                    width={90} 
+                    width={180} 
                     fontSize={8} 
                     fontWeight={900}
                     stroke="currentColor"
