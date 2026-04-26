@@ -83,7 +83,7 @@ const Navbar = () => {
              <div className="flex items-center p-1 bg-secondary rounded-xl border border-border">
                 <button
                   onClick={toggleLanguage}
-                  className="p-1.5 md:p-2 hover:bg-background rounded-lg transition-all !text-black dark:!text-white flex items-center gap-2"
+                  className="p-1.5 md:p-2 hover:bg-background rounded-lg transition-all text-black dark:text-white flex items-center gap-2"
                 >
                   <Languages className="w-4 h-4" />
                   <span className="text-[9px] md:text-[10px] font-black uppercase">{language}</span>
@@ -91,7 +91,7 @@ const Navbar = () => {
                 <div className="w-px h-4 bg-border mx-0.5 md:mx-1" />
                 <button
                   onClick={toggleTheme}
-                  className="p-1.5 md:p-2 hover:bg-background rounded-lg transition-all !text-black dark:!text-white"
+                  className="p-1.5 md:p-2 hover:bg-background rounded-lg transition-all text-black dark:text-white"
                 >
                   {theme === "dark" ? <Sun className="w-4 h-4" /> : <Moon className="w-4 h-4" />}
                 </button>

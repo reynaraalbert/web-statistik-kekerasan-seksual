@@ -51,9 +51,9 @@ export default function Home() {
                 initial={{ scale: 0.9, opacity: 0 }}
                 animate={{ scale: 1, opacity: 1 }}
                 transition={{ delay: 0.5 }}
-                className="inline-flex items-center gap-3 px-6 py-2.5 rounded-full bg-[#8B0000]/10 dark:bg-[#FFD1D1]/20 border border-[#8B0000]/20 dark:border-[#FFD1D1]/30 text-[#8B0000] dark:text-[#FFD1D1] text-[10px] font-black uppercase tracking-[0.3em] backdrop-blur-md"
+                className="inline-flex items-center gap-3 px-6 py-2.5 rounded-full bg-[#8B0000]/10 dark:bg-[#FFB6C1] border border-[#8B0000]/20 dark:border-none text-[#8B0000] dark:text-[#8B0000] text-[10px] font-black uppercase tracking-[0.3em] backdrop-blur-md"
               >
-                <Gavel className="w-4 h-4" /> {t("hero.badge")}
+                <ShieldCheck className="w-4 h-4" /> {t("hero.badge")}
               </motion.div>
             </div>
 
@@ -93,7 +93,7 @@ export default function Home() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 2, duration: 1 }}
-          className="mt-20 flex flex-col items-center gap-4 text-[#8B0000] dark:text-white"
+          className="mt-20 flex flex-col items-center gap-4 text-[#8B0000] dark:!text-white"
         >
           <span className="text-[10px] font-black tracking-[0.5em] uppercase">{t("hero.scroll")}</span>
           <div className="w-[2px] h-10 bg-gradient-to-b from-[#8B0000] to-transparent rounded-full" />

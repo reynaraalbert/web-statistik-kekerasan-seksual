@@ -261,6 +261,7 @@ export default function Statistik() {
                     fontSize={8} 
                     fontWeight={900}
                     stroke="currentColor"
+                    tick={{ textAnchor: 'start', dx: -170 }}
                     className="uppercase tracking-widest text-black dark:text-white"
                   />
                   <Tooltip 
@@ -336,9 +337,10 @@ export default function Statistik() {
                   <CartesianGrid strokeDasharray="5 5" vertical={false} stroke="var(--border)" />
                   <XAxis 
                     dataKey="label" 
-                    fontSize={8} 
+                    fontSize={6} 
                     fontWeight={900} 
                     stroke="currentColor"
+                    interval={0}
                     className="uppercase tracking-widest text-black dark:text-white"
                   />
                   <YAxis hide />
