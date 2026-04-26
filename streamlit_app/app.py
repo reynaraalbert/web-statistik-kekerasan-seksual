@@ -5,11 +5,25 @@ import plotly.graph_objects as go
 from datetime import datetime
 
 # ====================================================
+# PAGE CONFIG (MUST BE FIRST)
+# ====================================================
+st.set_page_config(
+    page_title="SIGAP - Analisis Mandiri",
+    page_icon="🛡️",
+    layout="wide",
+    initial_sidebar_state="auto"
+)
+
+# ====================================================
 # THEME & LANGUAGE DETECTION
 # ====================================================
-query_params = st.query_params
-theme = query_params.get("theme", "light")
-lang = query_params.get("lang", "id")
+try:
+    query_params = st.query_params
+    theme = query_params.get("theme", "light")
+    lang = query_params.get("lang", "id")
+except:
+    theme = "light"
+    lang = "id"
 
 # Multi-language support
 translations = {
@@ -62,15 +76,7 @@ else:
     primary_accent = "#8B0000"
     sidebar_bg = "#F0F2F6"
 
-# ====================================================
-# PAGE CONFIG
-# ====================================================
-st.set_page_config(
-    page_title=t["title"],
-    page_icon="🛡️",
-    layout="wide",
-    initial_sidebar_state="auto"
-)
+# Theme-Aware Styling
 
 # Custom CSS for Premium Theme-Aware Look
 st.markdown(f"""
