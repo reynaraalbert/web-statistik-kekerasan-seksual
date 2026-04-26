@@ -64,7 +64,7 @@ const translations = {
     "media.tab.yt": "Kanal Digital",
     "media.tab.news": "Liputan Media",
     
-    "map.title": "Geopolitik Kekerasan Seksual",
+    "map.title": "Peta Sebaran & Distribusi Regional",
     "map.subtitle": "Pemetaan spasial untuk mengidentifikasi episentrum krisis dan urgensi pemerataan instrumen perlindungan di seluruh wilayah Indonesia.",
     "map.description": "Pemetaan spasial institusi pendidikan tinggi.",
     "map.legend.total": "Total Laporan",
@@ -155,7 +155,7 @@ const translations = {
     "media.tab.yt": "Digital Channels",
     "media.tab.news": "Media Coverage",
     
-    "map.title": "Geopolitics of Sexual Violence",
+    "map.title": "Spatial Mapping & Regional Distribution",
     "map.subtitle": "Spatial mapping to identify crisis epicenters and the urgency of equalizing protection instruments across all regions of Indonesia.",
     "map.description": "Spatial mapping of higher education institutions.",
     "map.legend.total": "Total Reports",
