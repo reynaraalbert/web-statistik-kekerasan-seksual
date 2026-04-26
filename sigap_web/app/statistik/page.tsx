@@ -363,20 +363,20 @@ export default function Statistik() {
             </motion.div>
 
             {/* Visual - Order 2, Side by side */}
-            <motion.div className="h-[300px] md:h-[400px] w-full glass-card p-4 md:p-10 rounded-[40px] md:rounded-[60px] order-2 lg:row-span-2">
+            <motion.div className="h-[400px] md:h-[550px] w-full glass-card p-4 md:p-10 rounded-[40px] md:rounded-[60px] order-2 lg:row-span-2">
               <ResponsiveContainer width="100%" height="100%">
-                <BarChart data={data.kota_stats} margin={{ top: 5, right: 5, left: 0, bottom: 120 }}>
+                <BarChart data={data.kota_stats} margin={{ top: 10, right: 5, left: 0, bottom: 70 }}>
                   <CartesianGrid strokeDasharray="5 5" vertical={false} stroke="var(--border)" />
                   <XAxis 
                     dataKey="label" 
-                    fontSize={6} 
+                    fontSize={7} 
                     fontWeight={900} 
                     stroke="currentColor"
                     interval={0}
                     angle={-45}
                     textAnchor="end"
-                    height={120}
-                    tick={{ dy: 10 }}
+                    height={70}
+                    tick={{ dy: 5 }}
                     className="uppercase tracking-widest text-black dark:text-white"
                   />
                   <YAxis hide />
