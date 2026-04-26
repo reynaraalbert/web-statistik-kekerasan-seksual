@@ -1,152 +1,85 @@
-# Scraper Riset — Kekerasan Seksual di Pendidikan Tinggi Indonesia
+# SIGAP — Sistem Informasi & Geospasial Anti-Kekerasan Seksual
 
-Panduan cepat untuk memulai pengambilan data dari YouTube dan portal berita.
-
----
-
-## Isi Folder
-
-```
-kekerasan_seksual_scraper\
-├── SETUP_WINDOWS.bat              ← Klik 2x PERTAMA KALI (install otomatis)
-├── JALANKAN_SCRAPER.bat           ← Klik 2x untuk mulai scraping
-├── .env.example                   ← Template API key → rename jadi .env
-├── 01_youtube_scraper.py          ← Scraper YouTube (butuh API key)
-├── 02_news_scraper.py             ← Scraper berita (RSS gratis + NewsAPI opsional)
-├── 03_twitter_scraper.py          ← Twitter (skip dulu — berbayar)
-├── 04_tiktok_scraper.py           ← TikTok (butuh approval kampus)
-├── 05_ekstrak_universitas_v2.py   ← Ekstrak universitas & buat Excel riset
-└── data\                          ← Semua output CSV dan Excel tersimpan di sini
-```
+SIGAP adalah platform komprehensif untuk pengumpulan data, analisis, dan visualisasi spasial terkait krisis kekerasan seksual di perguruan tinggi Indonesia.
 
 ---
 
-## LANGKAH 1 — Install Python
+## 🏗️ Arsitektur Proyek
 
-1. Buka **https://www.python.org/downloads/**
-2. Download dan jalankan installer
-3. **PENTING:** Centang **"Add Python to PATH"** di bagian bawah installer!
-4. Klik Install Now
+Proyek ini terdiri dari tiga komponen utama:
 
-Cek di Command Prompt:
+1.  **Data Scraper (Python)**: Pipeline otomatis untuk mengumpulkan data dari YouTube, portal berita, dan media sosial.
+2.  **Web Portal (Next.js)**: Portal interaktif premium dengan peta geospasial dan *data storytelling*.
+3.  **Analysis Dashboard (Streamlit)**: Dashboard analitik mendalam untuk mengeksplorasi tren dan metrik statistik.
+
+---
+
+## 📂 Struktur Folder
+
 ```
-python --version
+kekerasan_seksual_scraper/
+├── sigap_web/             ← Portal Utama (Next.js)
+├── streamlit_app/         ← Dashboard Analitik (Streamlit)
+├── scraper/               ← Pipeline Data Scraper (Python)
+├── data/                  ← Database hasil scraping (JSON & Excel)
+├── SETUP_WINDOWS.bat      ← Setup otomatis untuk Windows
+└── JALANKAN_SCRAPER.bat   ← Menu utama untuk menjalankan sistem
 ```
 
 ---
 
-## LANGKAH 2 — Setup Project
+## 🚀 Cara Menjalankan Lokal
 
-Klik 2x file **`SETUP_WINDOWS.bat`** — tunggu sampai selesai.
+### 1. Prasyarat
+- Python 3.9+
+- Node.js 18+
+- Git
 
----
+### 2. Setup Cepat (Windows)
+Klik 2x file **`SETUP_WINDOWS.bat`**. Script ini akan:
+- Membuat virtual environment Python.
+- Menginstall dependensi scraper & streamlit.
+- Menginstall `node_modules` untuk portal web.
 
-## LANGKAH 3 — Buat File .env
-
-1. Duplikat file `.env.example`
-2. Rename hasil duplikat menjadi `.env` (hapus `.example`-nya)
-3. Buka `.env` dengan Notepad
-4. Isi API key:
-
-```
-YOUTUBE_API_KEY=AIzaSy...    ← dari Google Cloud Console
-NEWS_API_KEY=abc123...        ← dari newsapi.org (opsional)
-```
-
-### Cara dapat YouTube API Key:
-1. Buka https://console.cloud.google.com
-2. Buat project baru
-3. Cari "YouTube Data API v3" → klik Enable
-4. Pilih Credentials → Create Credentials → API Key
-5. Salin key ke file .env
+### 3. Menjalankan Komponen
+- **Web Portal**: `cd sigap_web && npm run dev` (Akses di http://localhost:3000)
+- **Streamlit**: `streamlit run streamlit_app/app.py` (Akses di http://localhost:8501)
+- **Scraper**: Klik 2x `JALANKAN_SCRAPER.bat`
 
 ---
 
-## LANGKAH 4 — Jalankan Scraper
+## ☁️ Panduan Deployment (GitHub)
 
-Klik 2x **`JALANKAN_SCRAPER.bat`** → pilih platform dari menu.
-
-Atau manual:
-```cmd
-venv\Scripts\activate
-python 01_youtube_scraper.py   ← YouTube
-python 02_news_scraper.py      ← Berita
+### 1. Persiapan Repositori
+Kami telah menginisialisasi Git di folder ini. Untuk memindahkan ke GitHub Anda:
+```bash
+git remote add origin https://github.com/USERNAME/NAMA_REPO.git
+git branch -M main
+git push -u origin main
 ```
 
+### 2. Deploy Portal Web (Next.js)
+Gunakan **[Vercel](https://vercel.com)**:
+- Hubungkan akun GitHub Anda.
+- Pilih folder `sigap_web` sebagai root directory.
+- Build command: `npm run build`
+- Install command: `npm install`
+
+### 3. Deploy Analysis Dashboard (Streamlit)
+Gunakan **[Streamlit Cloud](https://share.streamlit.io/)**:
+- Hubungkan akun GitHub Anda.
+- Pilih file `streamlit_app/app.py` sebagai entry point.
+
 ---
 
-## LANGKAH 5 — Ekstrak Universitas & Buat Excel Riset
-
-Setelah data CSV terkumpul di folder `data\`, jalankan **opsi [5]** dari menu
-atau manual:
-
-```cmd
-venv\Scripts\activate
-python 05_ekstrak_universitas_v2.py
+## 🛠️ Konfigurasi API
+Buat file `.env` di root untuk menjalankan scraper:
+```env
+YOUTUBE_API_KEY=AIzaSy...
+NEWS_API_KEY=abc123...
 ```
 
-Script ini akan:
-1. Membaca **semua file CSV** di folder `data\`
-2. Mendeteksi nama universitas, kota, provinsi, status PTN/PTS
-3. Mengidentifikasi jenis kekerasan dan pelaku
-4. Menghasilkan **Excel riset multi-sheet** (10 sheet) termasuk:
-   - Data Lengkap, Per Universitas, Per Provinsi, Per Kota
-   - Jenis Kekerasan, Pelaku, Tabel Silang, Tren per Tahun
-   - Dashboard Ringkasan, Panduan & Legenda
-
 ---
 
-## Keyword yang Sudah Dikonfigurasi
-
-Script sudah otomatis mencari dengan 7-8 keyword berikut:
-
-- kekerasan seksual kampus
-- pelecehan seksual mahasiswa
-- PPKS perguruan tinggi
-- kekerasan seksual dosen mahasiswa
-- kasus pelecehan seksual universitas
-- sexual harassment kampus indonesia
-- korban kekerasan seksual kampus
-- satgas PPKS kampus
-
----
-
-## Output
-
-Semua file tersimpan di folder `data\` dengan nama otomatis pakai timestamp:
-
-| File | Isi |
-|------|-----|
-| `youtube_video_YYYYMMDD_HHMM.csv` | Data video (judul, views, likes, url) |
-| `youtube_video_YYYYMMDD_HHMM.xlsx` | Sama, format Excel |
-| `youtube_komentar_YYYYMMDD_HHMM.csv` | Komentar publik per video |
-| `berita_YYYYMMDD_HHMM.csv` | Artikel dari media online |
-| `berita_YYYYMMDD_HHMM.xlsx` | Sama, format Excel |
-| `RISET_kekerasan_seksual_PT_YYYYMMDD_HHMM.xlsx` | **Excel riset 10-sheet** (dari langkah 5) |
-
----
-
-## Batas Quota (Gratis)
-
-| Platform | Limit |
-|----------|-------|
-| YouTube API | 10.000 unit/hari (reset pukul 15:00 WIB) |
-| NewsAPI | 100 request/hari |
-| RSS Feed | Tidak terbatas |
-
----
-
-## Masalah Umum
-
-**"python bukan perintah internal"**
-→ Python belum di PATH. Uninstall, install ulang, centang "Add Python to PATH"
-
-**"ModuleNotFoundError"**
-→ Jalankan ulang `SETUP_WINDOWS.bat`
-
-**"YOUTUBE_API_KEY tidak ditemukan"**
-→ File `.env` belum dibuat atau nama file salah (pastikan bukan `.env.txt`)
-→ Di Windows Explorer: aktifkan View → File name extensions
-
-**Quota YouTube habis (Error 403)**
-→ Tunggu reset besok pukul 15:00 WIB, atau buat project baru di Google Cloud
+## ⚖️ Lisensi & Kontribusi
+Proyek ini dikembangkan untuk tujuan riset dan advokasi. Kontribusi sangat disambut untuk meningkatkan akurasi ekstraksi data dan jangkauan visualisasi.
