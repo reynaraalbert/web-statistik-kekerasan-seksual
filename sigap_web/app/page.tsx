@@ -93,7 +93,7 @@ export default function Home() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 2, duration: 1 }}
-          className="mt-20 flex flex-col items-center gap-4 text-black dark:text-white"
+          className="mt-20 flex flex-col items-center gap-4 text-[#8B0000] dark:text-white"
         >
           <span className="text-[10px] font-black tracking-[0.5em] uppercase">{t("hero.scroll")}</span>
           <div className="w-[2px] h-10 bg-gradient-to-b from-[#8B0000] to-transparent rounded-full" />
